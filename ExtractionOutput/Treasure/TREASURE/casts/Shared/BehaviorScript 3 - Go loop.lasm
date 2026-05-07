@@ -1,0 +1,6 @@
+on enterFrame
+  [  0] pushsymb 7 .............................. <#loop>
+  [  2] pusharglistnoret 1 ...................... <#loop>
+  [  4] extcall 3 ............................... go(#loop)
+  [  6] ret
+end

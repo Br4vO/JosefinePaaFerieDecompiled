@@ -1,0 +1,29 @@
+on RectOfSprite spriteNr
+  [  0] getparam 0 .............................. <spriteNr>
+  [  2] pushint8 11 ............................. <11>
+  [  4] get 6 ................................... <the left of sprite spriteNr>
+  [  6] setlocal 0 .............................. theLeft = the left of sprite spriteNr
+  [  8] getparam 0 .............................. <spriteNr>
+  [ 10] pushint8 23 ............................. <23>
+  [ 12] get 6 ................................... <the top of sprite spriteNr>
+  [ 14] setlocal 1 .............................. theTop = the top of sprite spriteNr
+  [ 16] getparam 0 .............................. <spriteNr>
+  [ 18] pushint8 19 ............................. <19>
+  [ 20] get 6 ................................... <the right of sprite spriteNr>
+  [ 22] setlocal 2 .............................. theRight = the right of sprite spriteNr
+  [ 24] getparam 0 .............................. <spriteNr>
+  [ 26] pushint8 3 .............................. <3>
+  [ 28] get 6 ................................... <the bottom of sprite spriteNr>
+  [ 30] setlocal 3 .............................. theBottom = the bottom of sprite spriteNr
+  [ 32] getlocal 0 .............................. <theLeft>
+  [ 34] getlocal 1 .............................. <theTop>
+  [ 36] getlocal 2 .............................. <theRight>
+  [ 38] getlocal 3 .............................. <theBottom>
+  [ 40] pusharglist 4 ........................... <theLeft, theTop, theRight, theBottom>
+  [ 42] extcall 14 .............................. <rect(theLeft, theTop, theRight, theBottom)>
+  [ 44] setlocal 4 .............................. theRect = rect(theLeft, theTop, theRight, theBottom)
+  [ 46] getlocal 4 .............................. <theRect>
+  [ 48] pusharglistnoret 1 ...................... <theRect>
+  [ 50] extcall 15 .............................. return theRect
+  [ 52] ret
+end

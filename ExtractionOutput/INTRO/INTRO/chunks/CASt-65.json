@@ -1,0 +1,15 @@
+{
+  "type": 2,
+  "infoLen": 42,
+  "specificDataLen": 14,
+  "info": {
+    "dataOffset": 20,
+    "unk1": 0,
+    "unk2": 0,
+    "flags": 0,
+    "scriptId": 0,
+    "scriptSrcText": "",
+    "name": "Vinking"
+  },
+  "member": {}
+}

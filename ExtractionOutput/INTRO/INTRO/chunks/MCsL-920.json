@@ -1,0 +1,25 @@
+{
+  "dataOffset": 12,
+  "unk0": 0,
+  "itemsPerCast": 4,
+  "itemsPerCast": 4,
+  "unk1": 0,
+  "entries": [
+    {
+      "name": "Internal",
+      "filePath": "",
+      "preloadSettings": 0,
+      "minMember": 1,
+      "maxMember": 196,
+      "id": 1024
+    },
+    {
+      "name": "Shared",
+      "filePath": "Josefine:MOVIES:Shared.Cst",
+      "preloadSettings": 0,
+      "minMember": 1,
+      "maxMember": 36,
+      "id": 1024
+    }
+  ]
+}

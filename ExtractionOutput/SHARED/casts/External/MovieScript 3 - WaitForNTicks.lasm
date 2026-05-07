@@ -1,0 +1,27 @@
+on WaitForNTicks nrOfTicks
+  [  0] pusharglist 0 ........................... <>
+  [  2] thebuiltin 24 ........................... <the ticks>
+  [  4] getparam 0 .............................. <nrOfTicks>
+  [  6] add ..................................... <the ticks + nrOfTicks>
+  [  7] setlocal 0 .............................. endTicks = the ticks + nrOfTicks
+  [  9] pusharglist 0 ........................... <>
+  [ 11] thebuiltin 24 ........................... <the ticks>
+  [ 13] getlocal 0 .............................. <endTicks>
+  [ 15] lt ...................................... <the ticks < endTicks>
+  [ 16] jmpifz [ 25] ............................ repeat while the ticks < endTicks
+  [ 19] pusharglistnoret 0 ...................... <>
+  [ 21] extcall 25 .............................. nothing()
+  [ 23] endrepeat [  9]
+  [ 25] ret
+end
+
+on WaitSoundBusy channel
+  [  0] getparam 0 .............................. <channel>
+  [  2] pusharglist 1 ........................... <channel>
+  [  4] extcall 28 .............................. <soundBusy(channel)>
+  [  6] jmpifz [ 15] ............................ repeat while soundBusy(channel)
+  [  9] pusharglistnoret 0 ...................... <>
+  [ 11] extcall 25 .............................. nothing()
+  [ 13] endrepeat [  0]
+  [ 15] ret
+end

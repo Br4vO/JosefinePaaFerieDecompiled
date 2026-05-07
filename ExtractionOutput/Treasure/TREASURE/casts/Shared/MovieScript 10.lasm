@@ -1,0 +1,83 @@
+on prepareMovie
+  [  0] pushint16 1 ............................. <1>
+  [  3] setlocal 0 .............................. counter = 1
+  [  5] getlocal 0 .............................. <counter>
+  [  7] pushint16 1 ............................. <1>
+  [ 10] pushint16 2 ............................. <2>
+  [ 13] get 8 ................................... <the number of castMembers of castLib 1>
+  [ 15] lteq .................................... <counter <= the number of castMembers of castLib 1>
+  [ 16] jmpifz [ 73] ............................ repeat while counter <= the number of castMembers of castLib 1
+  [ 19] getlocal 0 .............................. <counter>
+  [ 21] pusharglist 1 ........................... <counter>
+  [ 23] extcall 14 .............................. <member(counter)>
+  [ 25] getobjprop 15 ........................... <member(counter).type>
+  [ 27] pushsymb 16 ............................. <#sound>
+  [ 29] eq ...................................... <member(counter).type = #sound>
+  [ 30] pushint16 4 ............................. <4>
+  [ 33] pushzero ................................ <0>
+  [ 34] pushzero ................................ <0>
+  [ 35] pushzero ................................ <0>
+  [ 36] pushzero ................................ <0>
+  [ 37] pushzero ................................ <0>
+  [ 38] pushzero ................................ <0>
+  [ 39] pushzero ................................ <0>
+  [ 40] getlocal 0 .............................. <counter>
+  [ 42] pusharglist 1 ........................... <counter>
+  [ 44] extcall 14 .............................. <member(counter)>
+  [ 46] getobjprop 17 ........................... <member(counter).name>
+  [ 48] getchunk ................................ <char 4 of the name of member counter>
+  [ 49] getglobal 18 ............................ <gLanguage>
+  [ 51] eq ...................................... <char 4 of the name of member counter = gLanguage>
+  [ 52] and ..................................... <(member(counter).type = #sound) and (char 4 of the name of member counter = gLanguage)>
+  [ 53] jmpifz [ 62] ............................ if (member(counter).type = #sound) and (char 4 of the name of member counter = gLanguage) then
+  [ 56] getlocal 0 .............................. <counter>
+  [ 58] pusharglistnoret 1 ...................... <counter>
+  [ 60] extcall 19 .............................. preloadMember(counter)
+  [ 62] pushint16 1 ............................. <1>
+  [ 65] getlocal 0 .............................. <counter>
+  [ 67] add ..................................... <1 + counter>
+  [ 68] setlocal 0 .............................. counter = 1 + counter
+  [ 70] endrepeat [  5]
+  [ 73] pushint16 1 ............................. <1>
+  [ 76] setlocal 0 .............................. counter = 1
+  [ 78] getlocal 0 .............................. <counter>
+  [ 80] pushint16 1 ............................. <1>
+  [ 83] pushint16 2 ............................. <2>
+  [ 86] get 8 ................................... <the number of castMembers of castLib 1>
+  [ 88] lteq .................................... <counter <= the number of castMembers of castLib 1>
+  [ 89] jmpifz [146] ............................ repeat while counter <= the number of castMembers of castLib 1
+  [ 92] getlocal 0 .............................. <counter>
+  [ 94] pusharglist 1 ........................... <counter>
+  [ 96] extcall 14 .............................. <member(counter)>
+  [ 98] getobjprop 15 ........................... <member(counter).type>
+  [100] pushsymb 16 ............................. <#sound>
+  [102] eq ...................................... <member(counter).type = #sound>
+  [103] pushint16 5 ............................. <5>
+  [106] pushzero ................................ <0>
+  [107] pushzero ................................ <0>
+  [108] pushzero ................................ <0>
+  [109] pushzero ................................ <0>
+  [110] pushzero ................................ <0>
+  [111] pushzero ................................ <0>
+  [112] pushzero ................................ <0>
+  [113] getlocal 0 .............................. <counter>
+  [115] pusharglist 1 ........................... <counter>
+  [117] extcall 14 .............................. <member(counter)>
+  [119] getobjprop 17 ........................... <member(counter).name>
+  [121] getchunk ................................ <char 5 of the name of member counter>
+  [122] getglobal 18 ............................ <gLanguage>
+  [124] eq ...................................... <char 5 of the name of member counter = gLanguage>
+  [125] and ..................................... <(member(counter).type = #sound) and (char 5 of the name of member counter = gLanguage)>
+  [126] jmpifz [135] ............................ if (member(counter).type = #sound) and (char 5 of the name of member counter = gLanguage) then
+  [129] getlocal 0 .............................. <counter>
+  [131] pusharglistnoret 1 ...................... <counter>
+  [133] extcall 19 .............................. preloadMember(counter)
+  [135] pushint16 1 ............................. <1>
+  [138] getlocal 0 .............................. <counter>
+  [140] add ..................................... <1 + counter>
+  [141] setlocal 0 .............................. counter = 1 + counter
+  [143] endrepeat [ 78]
+  [146] pusharglistnoret 0 ...................... <>
+  [148] extcall 20 .............................. updateStage()
+  [150] ret
+end
