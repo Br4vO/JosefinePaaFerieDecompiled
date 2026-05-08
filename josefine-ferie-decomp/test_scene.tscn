@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bs2tpsfrxkkah"]
+
+[ext_resource type="Script" uid="uid://c1n2p14jhy65d" path="res://test_extraction.gd" id="1_uhqqe"]
+
+[node name="Node2D" type="Node2D" unique_id=891896470]
+script = ExtResource("1_uhqqe")
+
+[node name="Haand" type="Sprite2D" parent="." unique_id=541472891]
