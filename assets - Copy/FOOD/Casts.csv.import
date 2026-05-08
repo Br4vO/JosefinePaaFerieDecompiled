@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dqx5r43lfycg3"
+
+[deps]
+
+files=["res://assets/FOOD/Casts.Name.translation", "res://assets/FOOD/Casts.Filename.translation"]
+
+source_file="res://assets/FOOD/Casts.csv"
+dest_files=["res://assets/FOOD/Casts.Name.translation", "res://assets/FOOD/Casts.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

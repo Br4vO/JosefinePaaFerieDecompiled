@@ -1,0 +1,502 @@
+Number,Type,Name,Registration Point,Filename
+1,bitmap,,"(328, 274)",
+2,shape,ToApple,"(0, 0)",
+3,shape,ToPizza,"(0, 0)",
+4,shape,ToPancake,"(0, 0)",
+5,shape,ToChokolate,"(0, 0)",
+6,bitmap,,"(72, 132)",
+7,bitmap,Pancake,"(0, 256)",
+8,bitmap,Chokolade,"(4, 265)",
+9,bitmap,Pizza,"(5, 298)",
+10,bitmap,Applecake,"(5, 273)",
+11,bitmap,mainscene,"(377, 284)",
+12,bitmap,,"(23, 21)",
+13,bitmap,Quit,"(22, 21)",
+14,bitmap,,"(21, 21)",
+15,bitmap,Help,"(22, 21)",
+16,bitmap,,"(22, 21)",
+17,bitmap,,"(56, 106)",
+18,bitmap,,"(139, 216)",
+19,transition,,"(0, 0)",
+20,bitmap,,"(87, 56)",
+21,bitmap,Stekeplate,"(82, 25)",
+22,bitmap,kakeform,"(25, 15)",
+23,bitmap,Pan1,"(20, 37)",
+24,bitmap,FilledForm,"(25, 15)",
+25,bitmap,Fake,"(0, 0)",
+26,script,,"(0, 0)",
+27,script,,"(0, 0)",
+28,script,done Help,"(0, 0)",
+29,bitmap,,"(67, 167)",
+30,script,Go QUIT,"(0, 0)",
+31,bitmap,Flourbag,"(25, 30)",
+32,bitmap,Flourbag1,"(43, 59)",
+33,bitmap,Flourbag2,"(41, 59)",
+34,filmLoop,FlourLoop,"(37, 40)",
+35,bitmap,Cocoa,"(14, 19)",
+36,bitmap,kakao 1,"(22, 34)",
+37,bitmap,kakao 2,"(22, 33)",
+38,filmLoop,CocoaLoop,"(22, 34)",
+39,bitmap,sausage,"(27, 9)",
+40,bitmap,cheese,"(14, 16)",
+41,bitmap,Egg4,"(21, 15)",
+42,bitmap,Egg,"(12, 6)",
+43,bitmap,Eggshell,"(12, 10)",
+44,bitmap,Apple,"(11, 12)",
+45,bitmap,Milk,"(18, 25)",
+46,bitmap,MilkMoving,"(26, 26)",
+47,bitmap,Milk1,"(39, 55)",
+48,bitmap,Milk2,"(42, 55)",
+49,filmLoop,MilkLoop,"(30, 35)",
+51,bitmap,Sugar,"(11, 24)",
+52,bitmap,sukker 1,"(23, 34)",
+53,bitmap,sukker 2,"(23, 34)",
+54,filmLoop,sugarloop,"(23, 34)",
+55,bitmap,tomato,"(14, 20)",
+56,bitmap,tomat1,"(21, 48)",
+57,bitmap,tomat2,"(21, 40)",
+58,filmLoop,tomatoLoop,"(21, 48)",
+59,shape,Avbryt,"(0, 0)",
+60,shape,Tilbake,"(0, 0)",
+61,bitmap,Cinnamon,"(11, 18)",
+62,bitmap,cinnamon1,"(154, 0)",
+63,bitmap,cinnamon2,"(18, 37)",
+64,filmLoop,cinnamonLoop,"(18, 43)",
+65,bitmap,Butter,"(15, 9)",
+66,bitmap,Butter1,"(26, 14)",
+67,bitmap,Butter2,"(26, 14)",
+68,bitmap,Butter3,"(33, -20)",
+69,filmLoop,ButterLoop,"(26, 28)",
+70,script,,"(0, 0)",
+71,bitmap,bPowder,"(10, 16)",
+72,bitmap,b.pulver 1,"(15, 31)",
+73,bitmap,b.pulver 2,"(16, 29)",
+74,filmLoop,bPowderLoop,"(16, 31)",
+75,bitmap,FilledForm1,"(25, 16)",
+76,bitmap,FormC,"(25, 16)",
+77,bitmap,FormA,"(25, 16)",
+78,bitmap,FormAC,"(25, 15)",
+79,bitmap,(pølse),"(25, 11)",
+80,bitmap,(tomat),"(28, 13)",
+81,bitmap,pizzaT,"(82, 25)",
+82,bitmap,pizzaS,"(82, 25)",
+83,bitmap,pizzaCS,"(82, 25)",
+84,bitmap,pizzaST,"(82, 25)",
+85,bitmap,pizzaCT,"(82, 25)",
+86,bitmap,pizzaALL,"(81, 25)",
+87,bitmap,pizza2,"(82, 25)",
+88,bitmap,pizzaC,"(82, 25)",
+89,bitmap,,"(33, 13)",
+90,bitmap,pannefat,"(32, 11)",
+91,bitmap,panna,"(60, 16)",
+92,bitmap,Pan2,"(60, 16)",
+93,bitmap,,"(56, 25)",
+94,bitmap,,"(56, 25)",
+95,bitmap,løfter1,"(60, 15)",
+96,bitmap,,"(23, 13)",
+97,bitmap,,"(21, 15)",
+98,bitmap,,"(16, 23)",
+99,bitmap,,"(17, 25)",
+100,bitmap,,"(26, 14)",
+101,bitmap,,"(33, 8)",
+102,bitmap,Pancake1,"(27, 7)",
+103,bitmap,Pancake2,"(28, 7)",
+104,bitmap,Pancake3,"(28, 7)",
+105,bitmap,Bowl1,"(24, 16)",
+106,bitmap,Bowl1X,"(24, 16)",
+107,bitmap,Bowl2,"(34, 26)",
+108,bitmap,Bowl2X,"(34, 26)",
+109,bitmap,BrownBowl,"(34, 26)",
+110,bitmap,pannefat,"(32, 11)",
+111,bitmap,Stir2,"(61, 132)",
+112,bitmap,Stir1,"(62, 132)",
+113,filmLoop,Stirring1loop,"(62, 132)",
+114,bitmap,,"(62, 97)",
+115,bitmap,ene armen,"(61, 132)",
+116,bitmap,Josefine,"(72, 132)",
+117,bitmap,finished,"(58, 137)",
+118,bitmap,,"(72, 80)",
+119,bitmap,,"(59, 80)",
+120,bitmap,forfra,"(62, 29)",
+121,bitmap,Stir,"(61, 132)",
+122,bitmap,,"(34, 27)",
+123,bitmap,,"(31, 25)",
+124,filmLoop,stirringloop,"(62, 132)",
+125,filmLoop,Stirring2loop,"(62, 132)",
+126,bitmap,holdearm,"(27, 36)",
+127,bitmap,,"(44, 19)",
+128,bitmap,,"(44, 21)",
+129,bitmap,begge armene,"(55, 150)",
+130,bitmap,,"(47, 28)",
+131,bitmap,,"(27, 25)",
+132,bitmap,,"(49, 64)",
+133,bitmap,,"(62, 54)",
+134,bitmap,,"(62, 99)",
+135,bitmap,to,"(58, 139)",
+136,bitmap,tre,"(61, 138)",
+137,bitmap,fire,"(58, 140)",
+138,bitmap,,"(62, 131)",
+139,bitmap,,"(64, 131)",
+140,bitmap,,"(67, 136)",
+141,bitmap,,"(62, 131)",
+142,bitmap,,"(62, 131)",
+143,bitmap,,"(62, 131)",
+144,bitmap,,"(62, 131)",
+145,bitmap,,"(84, 131)",
+146,bitmap,,"(62, 131)",
+147,bitmap,,"(58, 136)",
+148,bitmap,,"(72, 164)",
+149,bitmap,en,"(58, 138)",
+150,bitmap,H opp 1,"(31, 30)",
+151,bitmap,V opp 4,"(39, 30)",
+152,bitmap,,"(28, 29)",
+153,bitmap,H foran 2,"(58, 35)",
+154,bitmap,H ned 3,"(65, 37)",
+155,bitmap,V foran 5,"(58, 36)",
+156,bitmap,V ned 6,"(65, 36)",
+157,bitmap,bakhode,"(62, 56)",
+158,bitmap,Synge,"(28, 8)",
+159,bitmap,snakke,"(27, 8)",
+160,bitmap,V1,"(31, 35)",
+161,bitmap,H1,"(23, 33)",
+162,bitmap,V2,"(36, 50)",
+163,bitmap,H2,"(23, 51)",
+164,bitmap,,"(34, 37)",
+165,bitmap,,"(22, 43)",
+166,bitmap,,"(28, 42)",
+167,bitmap,snakkehode,"(50, 59)",
+168,bitmap,profil,"(39, 58)",
+169,bitmap,,"(15, 6)",
+170,bitmap,lemmeløs,"(58, 53)",
+171,bitmap,,"(58, 80)",
+172,bitmap,,"(58, 80)",
+173,bitmap,,"(58, 80)",
+174,bitmap,,"(58, 79)",
+175,bitmap,a.ned1,"(64, 75)",
+176,bitmap,a.ned2,"(64, 75)",
+177,bitmap,a.ned3,"(64, 75)",
+178,bitmap,,"(39, 19)",
+179,filmLoop,Blinking,"(39, 19)",
+180,bitmap,,"(70, 20)",
+181,bitmap,,"(50, 23)",
+200,bitmap,panne,"(22, 18)",
+201,bitmap,s.gryte,"(40, 24)",
+202,bitmap,glass,"(9, 20)",
+203,bitmap,flaske,"(12, 29)",
+204,bitmap,lokk,"(25, 8)",
+205,bitmap,kakeform,"(24, 12)",
+206,bitmap,tallerkner,"(29, 30)",
+207,bitmap,lokket oppe,"(40, 31)",
+208,bitmap,l.gryte,"(35, 17)",
+209,bitmap,potte,"(-214, -48)",
+210,bitmap,venstre,"(49, 42)",
+211,bitmap,Half,"(7, 27)",
+212,bitmap,Full,"(9, 27)",
+213,bitmap,Filled0,"(76, 17)",
+214,bitmap,Filled1,"(76, 17)",
+215,bitmap,Filled2,"(76, 17)",
+216,bitmap,Filled3,"(76, 17)",
+217,bitmap,Drop,"(2, 5)",
+218,bitmap,dråpe,"(3, 5)",
+219,bitmap,nøytral,"(31, 23)",
+220,bitmap,høyre,"(49, 34)",
+221,bitmap,C1,"(69, 61)",
+222,bitmap,C2,"(92, 47)",
+223,bitmap,C3,"(106, 48)",
+224,bitmap,Fridge1,"(54, 86)",
+225,bitmap,Fridge2,"(40, 96)",
+226,bitmap,Fridge3,"(29, 102)",
+227,bitmap,Fridge4,"(35, 96)",
+228,bitmap,,"(54, 46)",
+229,bitmap,,"(187, 101)",
+230,bitmap,R1,"(49, 72)",
+231,bitmap,R2,"(41, 76)",
+232,bitmap,R3,"(16, 79)",
+233,bitmap,Right4,"(30, 86)",
+234,bitmap,Left1,"(52, 68)",
+235,bitmap,Left2,"(44, 81)",
+236,bitmap,Left3,"(18, 89)",
+237,bitmap,Left4,"(39, 79)",
+238,bitmap,Water tap,"(25, 12)",
+239,filmLoop,Dripping,"(2, 19)",
+240,shape,Oven,"(0, 0)",
+251,script,,"(0, 0)",
+252,script,,"(0, 0)",
+253,script,,"(0, 0)",
+254,script,,"(0, 0)",
+255,script,,"(0, 0)",
+256,script,,"(0, 0)",
+257,script,,"(0, 0)",
+258,script,,"(0, 0)",
+259,script,,"(0, 0)",
+260,script,,"(0, 0)",
+261,script,,"(0, 0)",
+262,script,,"(0, 0)",
+263,script,,"(0, 0)",
+264,script,,"(0, 0)",
+265,script,,"(0, 0)",
+266,script,PrintSong,"(0, 0)",
+267,script,AskToPut,"(0, 0)",
+268,script,checkopencooker,"(0, 0)",
+269,script,,"(0, 0)",
+270,script,testpizza,"(0, 0)",
+271,script,InitPizza,"(0, 0)",
+272,script,testpizza2,"(0, 0)",
+273,script,,"(0, 0)",
+274,script,,"(0, 0)",
+275,script,To Pizza,"(0, 0)",
+276,script,To Pancake,"(0, 0)",
+277,script,To ChokoladeCake,"(0, 0)",
+278,script,soundloop,"(0, 0)",
+279,script,talking,"(0, 0)",
+280,script,TurnAndFry,"(0, 0)",
+281,script,InitKitchen,"(0, 0)",
+282,script,TellName,"(0, 0)",
+283,script,To Applecake,"(0, 0)",
+284,script,initFry,"(0, 0)",
+285,script,InitPancake,"(0, 0)",
+286,script,TurnPancake,"(0, 0)",
+287,script,FryPancake,"(0, 0)",
+288,script,TestPancake,"(0, 0)",
+289,script,go loop,"(0, 0)",
+290,script,Play done,"(0, 0)",
+291,script,Play done 2,"(0, 0)",
+292,script,InitChokolade,"(0, 0)",
+293,script,testChokolade,"(0, 0)",
+294,script,Whisking,"(0, 0)",
+295,script,Stirring,"(0, 0)",
+296,script,Ingr.-klick,"(0, 0)",
+297,script,røring,"(0, 0)",
+298,script,Left,"(0, 0)",
+299,script,Open left,"(0, 0)",
+300,script,Close left,"(0, 0)",
+301,script,Right,"(0, 0)",
+302,script,Open right,"(0, 0)",
+303,script,Close right,"(0, 0)",
+304,script,CloseLeft2,"(0, 0)",
+305,script,Water,"(0, 0)",
+306,script,Fill sink,"(0, 0)",
+307,script,Fridge,"(0, 0)",
+308,script,Open fridge,"(0, 0)",
+309,script,Close fridge,"(0, 0)",
+310,script,Check open,"(0, 0)",
+311,script,Right2,"(0, 0)",
+312,script,Close door,"(0, 0)",
+313,script,Left2,"(0, 0)",
+314,script,closedoor,"(0, 0)",
+315,script,bowl,"(0, 0)",
+316,script,bowl false,"(0, 0)",
+317,script,OvenClick,"(0, 0)",
+318,script,OvenOn,"(0, 0)",
+319,script,OvenOff,"(0, 0)",
+320,script,SmallClick,"(0, 0)",
+321,script,SmallOn,"(0, 0)",
+322,script,SmallOff,"(0, 0)",
+323,script,BigClick,"(0, 0)",
+324,script,BigOn,"(0, 0)",
+325,script,BigOff,"(0, 0)",
+326,script,Cooker,"(0, 0)",
+327,script,Open cooker,"(0, 0)",
+328,script,Close cooker,"(0, 0)",
+329,script,Fridge2,"(0, 0)",
+330,script,InitApple,"(0, 0)",
+331,script,openFridge2,"(0, 0)",
+332,script,opencooker,"(0, 0)",
+333,script,openright,"(0, 0)",
+334,script,cooker2,"(0, 0)",
+335,script,,"(0, 0)",
+336,script,,"(0, 0)",
+337,script,Cooker3,"(0, 0)",
+338,script,,"(0, 0)",
+339,script,,"(0, 0)",
+340,script,,"(0, 0)",
+341,script,checkapple,"(0, 0)",
+342,script,checkForm,"(0, 0)",
+343,script,testApple2,"(0, 0)",
+344,script,putApple,"(0, 0)",
+345,script,,"(0, 0)",
+346,script,,"(0, 0)",
+347,script,,"(0, 0)",
+348,script,,"(0, 0)",
+349,script,,"(0, 0)",
+350,script,,"(0, 0)",
+351,script,MoveIngredient,"(0, 0)",
+352,script,show correct,"(0, 0)",
+353,script,pouring-procedures,"(0, 0)",
+354,script,,"(0, 0)",
+355,script,,"(0, 0)",
+356,script,STOPMOVIE,"(0, 0)",
+357,script,PutPizzaInOven,"(0, 0)",
+358,script,PutAppleInOven,"(0, 0)",
+359,script,PutCakeInOven,"(0, 0)",
+360,script,,"(0, 0)",
+361,script,"To ""Start""","(0, 0)",
+362,script,Help in main loop,"(0, 0)",
+363,script,,"(0, 0)",
+364,script,,"(0, 0)",
+365,script,PrinRecipe,"(0, 0)",
+366,script,FakeSprite,"(0, 0)",
+367,script,Hånd-procs.,"(0, 0)",
+368,script,Sound loop (-1),"(0, 0)",
+369,script,,"(0, 0)",
+370,script,,"(0, 0)",
+371,script,,"(0, 0)",
+372,script,start,"(0, 0)",
+381,sound,SO_N04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\SO_\SO_N04.AIF
+382,sound,SO_S04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\SO_\SO_S04.AIF
+389,sound,vann1,"(0, 0)",
+390,sound,vann2,"(0, 0)",
+393,sound,FOH_N01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FOH_N01.AIF
+394,sound,FOH_S01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FOH_S01.AIF
+547,sound,FO_N01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N01.AIF
+548,sound,FO_N02,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N02.AIF
+549,sound,FO_N03,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N03.AIF
+550,sound,FO_N04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N04.AIF
+551,sound,FO_N05,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N05.AIF
+552,sound,FO_N06,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N06.AIF
+553,sound,FO_N07,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N07.AIF
+554,sound,FO_N08,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N08.AIF
+555,sound,FO_N09,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N09.AIF
+556,sound,FO_N10,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N10.AIF
+557,sound,FO_N11,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N11.AIF
+558,sound,FO_N12,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N12.AIF
+559,sound,FO_N13,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N13.AIF
+560,sound,FO_N14,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N14.AIF
+561,sound,FO_N15,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N15.AIF
+562,sound,FO_N16,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N16.AIF
+563,sound,FO_N17,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N17.AIF
+564,sound,FO_N18,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N18.AIF
+565,sound,FO_N19,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N19.AIF
+566,sound,FO_N20,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N20.AIF
+567,sound,FO_N21,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N21.AIF
+568,sound,FO_N22,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N22.AIF
+569,sound,FO_N23,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N23.AIF
+570,sound,FO_N24,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N24.AIF
+571,sound,FO_N25,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N25.AIF
+572,sound,FO_N26,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N26.AIF
+573,sound,FO_N27,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N27.AIF
+574,sound,FO_N28,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N28.AIF
+575,sound,FO_N29,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N29.AIF
+576,sound,FO_N30,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N30.AIF
+577,sound,FO_N31,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N31.AIF
+578,sound,FO_N32,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N32.AIF
+579,sound,FO_N33,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N33.AIF
+580,sound,FO_N34,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N34.AIF
+581,sound,FO_N35,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N35.AIF
+582,sound,FO_N36,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N36.AIF
+583,sound,FO_N37,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N37.AIF
+584,sound,FO_N38,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N38.AIF
+585,sound,FO_N39,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N39.AIF
+586,sound,FO_N40,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N40.AIF
+587,sound,FO_N41,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N41.AIF
+588,sound,FO_N42,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N42.AIF
+589,sound,FO_N43,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N43.AIF
+590,sound,FO_N44,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N44.AIF
+591,sound,FO_N45,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N45.AIF
+592,sound,FO_N46,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N46.AIF
+593,sound,FO_N47,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N47.AIF
+594,sound,FO_N48,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N48.AIF
+595,sound,FO_N49,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N49.AIF
+596,sound,FO_N50,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N50.AIF
+597,sound,FO_N51,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N51.AIF
+598,sound,FO_N52,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N52.AIF
+599,sound,FO_N53,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N53.AIF
+600,sound,FO_N54,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N54.AIF
+601,sound,FO_N55,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N55.AIF
+602,sound,FO_N56,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N56.AIF
+603,sound,FO_N57,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N57.AIF
+604,sound,FO_N58,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N58.AIF
+605,sound,FO_N59,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N59.AIF
+606,sound,FO_N60,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N60.AIF
+607,sound,FO_N61,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N61.AIF
+608,sound,FO_N62,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N62.AIF
+609,sound,FO_N63,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N63.AIF
+610,sound,FO_N64,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N64.AIF
+611,sound,FO_N65,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N65.AIF
+612,sound,FO_N66,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N66.AIF
+613,sound,FO_N67,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N67.AIF
+614,sound,FO_N68,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N68.AIF
+615,sound,FO_N69,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N69.AIF
+616,sound,FO_N70,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N70.AIF
+617,sound,FO_N71,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N71.AIF
+618,sound,FO_N72,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N72.AIF
+619,sound,FO_N73,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N73.AIF
+620,sound,FO_N74,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N74.AIF
+621,sound,FO_N75,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N75.AIF
+622,sound,FO_N76,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_N76.AIF
+623,sound,FO_S01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S01.AIF
+624,sound,FO_S02,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S02.AIF
+625,sound,FO_S03,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S03.AIF
+626,sound,FO_S04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S04.AIF
+627,sound,FO_S05,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S05.AIF
+628,sound,FO_S06,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S06.AIF
+629,sound,FO_S07,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S07.AIF
+630,sound,FO_S08,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S08.AIF
+631,sound,FO_S09,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S09.AIF
+632,sound,FO_S10,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S10.AIF
+633,sound,FO_S11,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S11.AIF
+634,sound,FO_S12,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S12.AIF
+635,sound,FO_S13,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S13.AIF
+636,sound,FO_S14,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S14.AIF
+637,sound,FO_S15,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S15.AIF
+638,sound,FO_S16,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S16.AIF
+639,sound,FO_S17,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S17.AIF
+640,sound,FO_S18,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S18.AIF
+641,sound,FO_S19,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S19.AIF
+642,sound,FO_S20,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S20.AIF
+643,sound,FO_S21,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S21.AIF
+644,sound,FO_S22,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S22.AIF
+645,sound,FO_S23,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S23.AIF
+646,sound,FO_S24,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S24.AIF
+647,sound,FO_S25,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S25.AIF
+648,sound,FO_S26,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S26.AIF
+649,sound,FO_S27,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S27.AIF
+650,sound,FO_S28,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S28.AIF
+651,sound,FO_S29,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S29.AIF
+652,sound,FO_S30,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S30.AIF
+653,sound,FO_S31,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S31.AIF
+654,sound,FO_S32,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S32.AIF
+655,sound,FO_S33,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S33.AIF
+656,sound,FO_S34,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S34.AIF
+657,sound,FO_S35,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S35.AIF
+658,sound,FO_S36,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S36.AIF
+659,sound,FO_S37,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S37.AIF
+660,sound,FO_S38,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S38.AIF
+661,sound,FO_S39,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S39.AIF
+662,sound,FO_S40,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S40.AIF
+663,sound,FO_S41,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S41.AIF
+664,sound,FO_S42,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S42.AIF
+665,sound,FO_S43,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S43.AIF
+666,sound,FO_S44,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S44.AIF
+667,sound,FO_S45,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S45.AIF
+668,sound,FO_S46,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S46.AIF
+669,sound,FO_S47,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S47.AIF
+670,sound,FO_S48,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S48.AIF
+671,sound,FO_S49,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S49.AIF
+672,sound,FO_S50,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S50.AIF
+673,sound,FO_S51,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S51.AIF
+674,sound,FO_S52,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S52.AIF
+675,sound,FO_S53,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S53.AIF
+676,sound,FO_S54,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S54.AIF
+677,sound,FO_S55,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S55.AIF
+678,sound,FO_S56,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S56.AIF
+679,sound,FO_S57,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S57.AIF
+680,sound,FO_S58,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S58.AIF
+681,sound,FO_S59,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S59.AIF
+682,sound,FO_S60,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S60.AIF
+683,sound,FO_S61,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S61.AIF
+684,sound,FO_S62,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S62.AIF
+685,sound,FO_S63,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S63.AIF
+686,sound,FO_S64,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S64.AIF
+687,sound,FO_S65,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S65.AIF
+688,sound,FO_S66,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S66.AIF
+689,sound,FO_S67,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S67.AIF
+690,sound,FO_S68,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S68.AIF
+691,sound,FO_S69,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S69.AIF
+692,sound,FO_S70,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S70.AIF
+693,sound,FO_S71,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S71.AIF
+694,sound,FO_S72,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S72.AIF
+695,sound,FO_S73,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S73.AIF
+696,sound,FO_S74,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S74.AIF
+697,sound,FO_S75,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S75.AIF
+698,sound,FO_S76,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\FO_\FO_S76.AIF

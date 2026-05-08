@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cscsif7tk5n8p"
+
+[deps]
+
+files=["res://assets/KIM/Members.Type.translation", "res://assets/KIM/Members.Name.translation", "res://assets/KIM/Members.Registration Point.translation", "res://assets/KIM/Members.Filename.translation"]
+
+source_file="res://assets/KIM/Members.csv"
+dest_files=["res://assets/KIM/Members.Type.translation", "res://assets/KIM/Members.Name.translation", "res://assets/KIM/Members.Registration Point.translation", "res://assets/KIM/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

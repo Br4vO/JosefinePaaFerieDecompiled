@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dvp74p2g4kefx"
+
+[deps]
+
+files=["res://assets/CLOTHES/Members.Type.translation", "res://assets/CLOTHES/Members.Name.translation", "res://assets/CLOTHES/Members.Registration Point.translation", "res://assets/CLOTHES/Members.Filename.translation"]
+
+source_file="res://assets/CLOTHES/Members.csv"
+dest_files=["res://assets/CLOTHES/Members.Type.translation", "res://assets/CLOTHES/Members.Name.translation", "res://assets/CLOTHES/Members.Registration Point.translation", "res://assets/CLOTHES/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

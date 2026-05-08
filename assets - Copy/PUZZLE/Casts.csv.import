@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cttkk17rp8tr0"
+
+[deps]
+
+files=["res://assets/PUZZLE/Casts.Name.translation", "res://assets/PUZZLE/Casts.Filename.translation"]
+
+source_file="res://assets/PUZZLE/Casts.csv"
+dest_files=["res://assets/PUZZLE/Casts.Name.translation", "res://assets/PUZZLE/Casts.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

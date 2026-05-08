@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://vq8h6cx351fe"
+
+[deps]
+
+files=["res://assets/PICNIC/Members.Type.translation", "res://assets/PICNIC/Members.Name.translation", "res://assets/PICNIC/Members.Registration Point.translation", "res://assets/PICNIC/Members.Filename.translation"]
+
+source_file="res://assets/PICNIC/Members.csv"
+dest_files=["res://assets/PICNIC/Members.Type.translation", "res://assets/PICNIC/Members.Name.translation", "res://assets/PICNIC/Members.Registration Point.translation", "res://assets/PICNIC/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

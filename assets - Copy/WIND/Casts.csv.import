@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b3v2ewwy3sqdv"
+
+[deps]
+
+files=["res://assets/WIND/Casts.Name.translation", "res://assets/WIND/Casts.Filename.translation"]
+
+source_file="res://assets/WIND/Casts.csv"
+dest_files=["res://assets/WIND/Casts.Name.translation", "res://assets/WIND/Casts.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

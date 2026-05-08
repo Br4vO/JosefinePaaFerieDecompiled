@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dgp18ep365rpq"
+
+[deps]
+
+files=["res://assets/QUIT/Casts.Name.translation", "res://assets/QUIT/Casts.Filename.translation"]
+
+source_file="res://assets/QUIT/Casts.csv"
+dest_files=["res://assets/QUIT/Casts.Name.translation", "res://assets/QUIT/Casts.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

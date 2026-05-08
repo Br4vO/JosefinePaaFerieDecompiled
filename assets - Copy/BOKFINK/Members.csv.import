@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dcojowyyur3du"
+
+[deps]
+
+files=["res://assets/BOKFINK/Members.Type.translation", "res://assets/BOKFINK/Members.Name.translation", "res://assets/BOKFINK/Members.Registration Point.translation", "res://assets/BOKFINK/Members.Filename.translation"]
+
+source_file="res://assets/BOKFINK/Members.csv"
+dest_files=["res://assets/BOKFINK/Members.Type.translation", "res://assets/BOKFINK/Members.Name.translation", "res://assets/BOKFINK/Members.Registration Point.translation", "res://assets/BOKFINK/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

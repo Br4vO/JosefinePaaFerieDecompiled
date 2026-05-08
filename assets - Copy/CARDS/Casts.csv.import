@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://blehle3vxbhgr"
+
+[deps]
+
+files=["res://assets/CARDS/Casts.Name.translation", "res://assets/CARDS/Casts.Filename.translation"]
+
+source_file="res://assets/CARDS/Casts.csv"
+dest_files=["res://assets/CARDS/Casts.Name.translation", "res://assets/CARDS/Casts.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

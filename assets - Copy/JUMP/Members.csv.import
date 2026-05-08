@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cr0rvgdowse2l"
+
+[deps]
+
+files=["res://assets/JUMP/Members.Type.translation", "res://assets/JUMP/Members.Name.translation", "res://assets/JUMP/Members.Registration Point.translation", "res://assets/JUMP/Members.Filename.translation"]
+
+source_file="res://assets/JUMP/Members.csv"
+dest_files=["res://assets/JUMP/Members.Type.translation", "res://assets/JUMP/Members.Name.translation", "res://assets/JUMP/Members.Registration Point.translation", "res://assets/JUMP/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

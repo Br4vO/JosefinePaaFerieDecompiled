@@ -1,6 +1,0 @@
-on exitFrame
-  [  0] pushsymb 4 .............................. <#loop>
-  [  2] pusharglistnoret 1 ...................... <#loop>
-  [  4] extcall 5 ............................... go(#loop)
-  [  6] ret
-end

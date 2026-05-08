@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://ffw4ao0jda82"
+
+[deps]
+
+files=["res://assets/QUIT/Members.Type.translation", "res://assets/QUIT/Members.Name.translation", "res://assets/QUIT/Members.Registration Point.translation", "res://assets/QUIT/Members.Filename.translation"]
+
+source_file="res://assets/QUIT/Members.csv"
+dest_files=["res://assets/QUIT/Members.Type.translation", "res://assets/QUIT/Members.Name.translation", "res://assets/QUIT/Members.Registration Point.translation", "res://assets/QUIT/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

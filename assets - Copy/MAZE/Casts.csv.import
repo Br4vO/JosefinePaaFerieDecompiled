@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://gdb4gvb04g3e"
+
+[deps]
+
+files=["res://assets/MAZE/Casts.Name.translation", "res://assets/MAZE/Casts.Filename.translation"]
+
+source_file="res://assets/MAZE/Casts.csv"
+dest_files=["res://assets/MAZE/Casts.Name.translation", "res://assets/MAZE/Casts.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

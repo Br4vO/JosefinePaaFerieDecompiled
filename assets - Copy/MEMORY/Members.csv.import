@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b3bo4m3bec8wa"
+
+[deps]
+
+files=["res://assets/MEMORY/Members.Type.translation", "res://assets/MEMORY/Members.Name.translation", "res://assets/MEMORY/Members.Registration Point.translation", "res://assets/MEMORY/Members.Filename.translation"]
+
+source_file="res://assets/MEMORY/Members.csv"
+dest_files=["res://assets/MEMORY/Members.Type.translation", "res://assets/MEMORY/Members.Name.translation", "res://assets/MEMORY/Members.Registration Point.translation", "res://assets/MEMORY/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

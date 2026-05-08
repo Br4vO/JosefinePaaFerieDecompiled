@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dn11tch0ekipp"
+
+[deps]
+
+files=["res://assets/FLAG/Casts.Name.translation", "res://assets/FLAG/Casts.Filename.translation"]
+
+source_file="res://assets/FLAG/Casts.csv"
+dest_files=["res://assets/FLAG/Casts.Name.translation", "res://assets/FLAG/Casts.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

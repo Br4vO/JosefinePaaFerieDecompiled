@@ -1,7 +1,0 @@
-on exitFrame
-  [  0] pushcons 0 .............................. <"InitIntro">
-  [  2] pushcons 1 .............................. <"INTRO">
-  [  4] pusharglistnoret 2 ...................... <"InitIntro", "INTRO">
-  [  6] extcall 5 ............................... go("InitIntro", "INTRO")
-  [  8] ret
-end

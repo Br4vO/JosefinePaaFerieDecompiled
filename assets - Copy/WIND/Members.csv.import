@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://x8k4d8citheq"
+
+[deps]
+
+files=["res://assets/WIND/Members.Type.translation", "res://assets/WIND/Members.Name.translation", "res://assets/WIND/Members.Registration Point.translation", "res://assets/WIND/Members.Filename.translation"]
+
+source_file="res://assets/WIND/Members.csv"
+dest_files=["res://assets/WIND/Members.Type.translation", "res://assets/WIND/Members.Name.translation", "res://assets/WIND/Members.Registration Point.translation", "res://assets/WIND/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

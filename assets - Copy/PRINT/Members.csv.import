@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://d3iamcjmusddt"
+
+[deps]
+
+files=["res://assets/PRINT/Members.Type.translation", "res://assets/PRINT/Members.Name.translation", "res://assets/PRINT/Members.Registration Point.translation", "res://assets/PRINT/Members.Filename.translation"]
+
+source_file="res://assets/PRINT/Members.csv"
+dest_files=["res://assets/PRINT/Members.Type.translation", "res://assets/PRINT/Members.Name.translation", "res://assets/PRINT/Members.Registration Point.translation", "res://assets/PRINT/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

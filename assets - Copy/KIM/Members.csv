@@ -1,0 +1,324 @@
+Number,Type,Name,Registration Point,Filename
+1,bitmap,,"(320, 240)",
+2,bitmap,,"(262, 109)",
+3,script,,"(0, 0)",
+4,bitmap,playBlanket,"(44, 28)",
+5,bitmap,,"(65, 110)",
+6,bitmap,blank,"(1, 2)",
+7,bitmap,goStart,"(23, 21)",
+8,bitmap,Til hovedscene,"(21, 21)",
+9,bitmap,Help,"(22, 21)",
+10,bitmap,Quit,"(22, 21)",
+11,bitmap,D1,"(11, 13)",
+12,bitmap,D2,"(11, 13)",
+13,bitmap,D3,"(11, 13)",
+14,bitmap,D4,"(11, 13)",
+15,bitmap,D5,"(11, 13)",
+16,bitmap,D6,"(11, 13)",
+17,bitmap,D7,"(11, 13)",
+18,bitmap,D8,"(11, 13)",
+19,bitmap,D9,"(11, 13)",
+20,bitmap,D0,"(11, 13)",
+21,bitmap,,"(29, 14)",
+22,filmLoop,blinking,"(40, 19)",
+23,bitmap,,"(39, 19)",
+24,script,,"(0, 0)",
+25,script,,"(0, 0)",
+26,bitmap,,"(46, 34)",
+27,bitmap,armer 1,"(51, 23)",
+28,bitmap,armer 2,"(47, 36)",
+29,bitmap,save,"(38, 14)",
+30,transition,,"(0, 0)",
+31,bitmap,teppe 1,"(300, 23)",
+32,bitmap,teppe 2,"(302, 66)",
+33,bitmap,teppe 3,"(280, 71)",
+34,bitmap,teppe 4,"(236, 111)",
+35,filmLoop,blinking2,"(40, 19)",
+36,script,,"(0, 0)",
+41,bitmap,KIM101,"(22, 17)",
+42,bitmap,KIM102,"(21, 22)",
+43,bitmap,KIM103,"(31, 18)",
+44,bitmap,KIM104,"(34, 24)",
+45,bitmap,KIM105,"(32, 33)",
+46,bitmap,KIM106,"(25, 34)",
+47,bitmap,KIM107,"(27, 22)",
+48,bitmap,KIM108,"(21, 22)",
+49,bitmap,KIM109,"(31, 18)",
+50,bitmap,KIM110,"(28, 21)",
+51,bitmap,KIM111,"(15, 27)",
+52,bitmap,KIM112,"(15, 27)",
+53,bitmap,KIM113,"(27, 28)",
+54,bitmap,KIM114,"(21, 31)",
+55,bitmap,KIM115,"(34, 24)",
+56,bitmap,KIM116,"(22, 27)",
+57,bitmap,KIM117,"(34, 24)",
+58,bitmap,KIM118,"(32, 33)",
+59,bitmap,KIM119,"(21, 31)",
+60,bitmap,KIM120,"(27, 28)",
+61,bitmap,KIM121,"(26, 25)",
+62,bitmap,KIM122,"(26, 25)",
+63,bitmap,KIM123,"(23, 25)",
+64,bitmap,KIM124,"(34, 24)",
+71,bitmap,KIM101A,"(0, 0)",
+72,bitmap,KIM102A,"(0, 0)",
+73,bitmap,KIM103A,"(0, -1)",
+74,bitmap,KIM104A,"(0, 0)",
+75,bitmap,KIM105A,"(0, 0)",
+76,bitmap,KIM106A,"(0, 0)",
+77,bitmap,KIM107A,"(0, 0)",
+78,bitmap,KIM108A,"(0, 0)",
+79,bitmap,KIM109A,"(0, 0)",
+80,bitmap,KIM110A,"(0, 0)",
+81,bitmap,KIM111A,"(0, 0)",
+82,bitmap,KIM112A,"(0, -1)",
+83,bitmap,KIM113A,"(0, 0)",
+84,bitmap,KIM114A,"(0, 0)",
+85,bitmap,KIM115A,"(0, -1)",
+86,bitmap,KIM116A,"(0, 0)",
+87,bitmap,KIM117A,"(0, 0)",
+88,bitmap,KIM118A,"(0, 0)",
+89,bitmap,KIM119A,"(0, 0)",
+90,bitmap,KIM120A,"(0, 0)",
+91,bitmap,KIM121A,"(0, 0)",
+92,bitmap,KIM122A,"(0, 0)",
+93,bitmap,KIM123A,"(0, 0)",
+94,bitmap,KIM124A,"(0, -1)",
+95,bitmap,GuessWhat,"(41, 240)",
+101,bitmap,KIM201,"(24, 43)",
+102,bitmap,KIM202,"(34, 12)",
+103,bitmap,KIM203,"(30, 21)",
+104,bitmap,KIM204,"(31, 15)",
+105,bitmap,KIM205,"(34, 21)",
+106,bitmap,KIM206,"(27, 18)",
+107,bitmap,KIM207,"(25, 34)",
+108,bitmap,KIM208,"(34, 29)",
+109,bitmap,KIM209,"(32, 45)",
+110,bitmap,KIM210,"(29, 19)",
+111,bitmap,KIM211,"(29, 38)",
+112,bitmap,KIM212,"(28, 38)",
+113,bitmap,KIM213,"(34, 13)",
+114,bitmap,KIM214,"(28, 21)",
+115,bitmap,KIM215,"(12, 39)",
+116,bitmap,KIM216,"(17, 27)",
+117,bitmap,KIM217,"(26, 39)",
+118,bitmap,KIM218,"(27, 27)",
+119,bitmap,KIM219,"(29, 36)",
+120,bitmap,KIM220,"(25, 33)",
+121,bitmap,KIM221,"(29, 29)",
+122,bitmap,KIM222,"(31, 15)",
+123,bitmap,KIM223,"(27, 36)",
+124,bitmap,KIM224,"(32, 19)",
+131,bitmap,KIM201A,"(0, 0)",
+132,bitmap,KIM202A,"(0, 0)",
+133,bitmap,KIM203A,"(0, -1)",
+134,bitmap,KIM204A,"(0, 0)",
+135,bitmap,KIM205A,"(0, 0)",
+136,bitmap,KIM206A,"(0, 0)",
+137,bitmap,KIM207A,"(0, 0)",
+138,bitmap,KIM208A,"(0, 0)",
+139,bitmap,KIM209A,"(0, 0)",
+140,bitmap,KIM210A,"(0, 0)",
+141,bitmap,KIM211A,"(0, 0)",
+142,bitmap,KIM212A,"(0, -1)",
+143,bitmap,KIM213A,"(0, 0)",
+144,bitmap,KIM214A,"(0, 0)",
+145,bitmap,KIM215A,"(0, -1)",
+146,bitmap,KIM216A,"(0, 0)",
+147,bitmap,KIM217A,"(0, 0)",
+148,bitmap,KIM218A,"(0, 0)",
+149,bitmap,KIM219A,"(0, 0)",
+150,bitmap,KIM220A,"(0, 0)",
+151,bitmap,KIM221A,"(0, 0)",
+152,bitmap,KIM222A,"(0, 0)",
+153,bitmap,KIM223A,"(0, 0)",
+154,bitmap,KIM224A,"(0, -1)",
+155,bitmap,Guess2,"(41, 240)",
+161,script,masing2,"(0, 0)",
+162,script,masing3,"(0, 0)",
+163,script,checkChoice,"(0, 0)",
+164,script,putBlanket,"(0, 0)",
+165,script,loop,"(0, 0)",
+166,script,askforGuess,"(0, 0)",
+167,script,,"(0, 0)",
+168,script,Welcome,"(0, 0)",
+169,script,,"(0, 0)",
+170,script,Finished,"(0, 0)",
+171,script,tellnames3,"(0, 0)",
+172,script,tellNames1,"(0, 0)",
+173,script,loop,"(0, 0)",
+174,script,done,"(0, 0)",
+175,script,Start,"(0, 0)",
+176,script,Init,"(0, 0)",
+177,script,masing1,"(0, 0)",
+178,script,loop,"(0, 0)",
+179,script,Help1,"(0, 0)",
+180,script,Help2,"(0, 0)",
+181,script,Help3,"(0, 0)",
+182,script,showPoints,"(0, 0)",
+183,script,AvsluttKim(),"(0, 0)",
+184,script,Sound loop,"(0, 0)",
+185,script,Sound loop,"(0, 0)",
+186,script,startTimer,"(0, 0)",
+187,script,"Play ""fanfare""","(0, 0)",
+188,script,"Go ""FinishedLoop""","(0, 0)",
+190,sound,Short1,"(0, 0)",
+191,sound,Short2,"(0, 0)",
+192,sound,Short3,"(0, 0)",
+193,sound,Short4,"(0, 0)",
+194,sound,Long1,"(0, 0)",
+195,sound,Long2,"(0, 0)",
+196,sound,Long3,"(0, 0)",
+197,sound,Long4,"(0, 0)",
+198,sound,Long5,"(0, 0)",
+199,sound,Long6,"(0, 0)",
+200,sound,Long7,"(0, 0)",
+203,sound,KIH_N01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KIH_N01.AIF
+204,sound,KIH_S01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KIH_S01.AIF
+353,sound,KI_N01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N01.AIF
+354,sound,KI_N02,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N02.AIF
+355,sound,KI_N03,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N03.AIF
+356,sound,KI_N04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N04.AIF
+357,sound,KI_N05,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N05.AIF
+358,sound,KI_N06,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N06.AIF
+359,sound,KI_N07,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N07.AIF
+360,sound,KI_N08,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N08.AIF
+361,sound,KI_N09,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N09.AIF
+362,sound,KI_N10,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N10.AIF
+363,sound,KI_N11,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N11.AIF
+364,sound,KI_N12,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N12.AIF
+365,sound,KI_N13,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N13.AIF
+366,sound,KI_N14,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N14.AIF
+367,sound,KI_N15,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N15.AIF
+368,sound,KI_N16,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N16.AIF
+369,sound,KI_N17,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N17.AIF
+370,sound,KI_N18,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N18.AIF
+371,sound,KI_N19,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N19.AIF
+372,sound,KI_N20,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N20.AIF
+373,sound,KI_N21,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N21.AIF
+374,sound,KI_N22,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N22.AIF
+375,sound,KI_N23,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N23.AIF
+376,sound,KI_N24,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N24.AIF
+377,sound,KI_N25,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N25.AIF
+378,sound,KI_N26,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N26.AIF
+379,sound,KI_N27,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N27.AIF
+380,sound,KI_N28,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N28.AIF
+381,sound,KI_N29,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N29.AIF
+382,sound,KI_N30,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N30.AIF
+383,sound,KI_N31,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N31.AIF
+384,sound,KI_N32,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N32.AIF
+385,sound,KI_N33,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N33.AIF
+386,sound,KI_N34,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N34.AIF
+387,sound,KI_N35,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N35.AIF
+388,sound,KI_N36,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N36.AIF
+389,sound,KI_N37,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N37.AIF
+390,sound,KI_N38,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N38.AIF
+391,sound,KI_N39,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N39.AIF
+392,sound,KI_N40,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N40.AIF
+393,sound,KI_N41,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N41.AIF
+394,sound,KI_N42,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N42.AIF
+395,sound,KI_N43,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N43.AIF
+396,sound,KI_N44,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N44.AIF
+397,sound,KI_N45,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N45.AIF
+398,sound,KI_N46,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N46.AIF
+399,sound,KI_N47,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N47.AIF
+400,sound,KI_N48,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N48.AIF
+401,sound,KI_N49,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N49.AIF
+402,sound,KI_N50,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N50.AIF
+403,sound,KI_N51,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N51.AIF
+404,sound,KI_N52,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N52.AIF
+405,sound,KI_N53,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N53.AIF
+406,sound,KI_N54,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N54.AIF
+407,sound,KI_N55,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N55.AIF
+408,sound,KI_N56,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N56.AIF
+409,sound,KI_N57,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N57.AIF
+410,sound,KI_N58,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N58.AIF
+411,sound,KI_N59,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N59.AIF
+412,sound,KI_N60,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N60.AIF
+413,sound,KI_N61,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N61.AIF
+414,sound,KI_N62,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N62.AIF
+415,sound,KI_N63,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N63.AIF
+416,sound,KI_N64,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N64.AIF
+417,sound,KI_N65,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N65.AIF
+418,sound,KI_N66,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N66.AIF
+419,sound,KI_N67,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N67.AIF
+420,sound,KI_N68,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N68.AIF
+421,sound,KI_N69,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N69.AIF
+422,sound,KI_N70,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N70.AIF
+423,sound,KI_N71,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N71.AIF
+424,sound,KI_N72,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N72.AIF
+425,sound,KI_N73,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N73.AIF
+426,sound,KI_N74,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_N74.AIF
+427,sound,KI_S01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S01.AIF
+428,sound,KI_S02,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S02.AIF
+429,sound,KI_S03,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S03.AIF
+430,sound,KI_S04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S04.AIF
+431,sound,KI_S05,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S05.AIF
+432,sound,KI_S06,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S06.AIF
+433,sound,KI_S07,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S07.AIF
+434,sound,KI_S08,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S08.AIF
+435,sound,KI_S09,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S09.AIF
+436,sound,KI_S10,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S10.AIF
+437,sound,KI_S11,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S11.AIF
+438,sound,KI_S12,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S12.AIF
+439,sound,KI_S13,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S13.AIF
+440,sound,KI_S14,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S14.AIF
+441,sound,KI_S15,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S15.AIF
+442,sound,KI_S16,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S16.AIF
+443,sound,KI_S17,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S17.AIF
+444,sound,KI_S18,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S18.AIF
+445,sound,KI_S19,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S19.AIF
+446,sound,KI_S20,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S20.AIF
+447,sound,KI_S21,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S21.AIF
+448,sound,KI_S22,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S22.AIF
+449,sound,KI_S23,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S23.AIF
+450,sound,KI_S24,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S24.AIF
+451,sound,KI_S25,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S25.AIF
+452,sound,KI_S26,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S26.AIF
+453,sound,KI_S27,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S27.AIF
+454,sound,KI_S28,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S28.AIF
+455,sound,KI_S29,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S29.AIF
+456,sound,KI_S30,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S30.AIF
+457,sound,KI_S31,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S31.AIF
+458,sound,KI_S32,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S32.AIF
+459,sound,KI_S33,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S33.AIF
+460,sound,KI_S34,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S34.AIF
+461,sound,KI_S35,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S35.AIF
+462,sound,KI_S36,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S36.AIF
+463,sound,KI_S37,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S37.AIF
+464,sound,KI_S38,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S38.AIF
+465,sound,KI_S39,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S39.AIF
+466,sound,KI_S40,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S40.AIF
+467,sound,KI_S41,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S41.AIF
+468,sound,KI_S42,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S42.AIF
+469,sound,KI_S43,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S43.AIF
+470,sound,KI_S44,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S44.AIF
+471,sound,KI_S45,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S45.AIF
+472,sound,KI_S46,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S46.AIF
+473,sound,KI_S47,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S47.AIF
+474,sound,KI_S48,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S48.AIF
+475,sound,KI_S49,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S49.AIF
+476,sound,KI_S50,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S50.AIF
+477,sound,KI_S51,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S51.AIF
+478,sound,KI_S52,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S52.AIF
+479,sound,KI_S53,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S53.AIF
+480,sound,KI_S54,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S54.AIF
+481,sound,KI_S55,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S55.AIF
+482,sound,KI_S56,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S56.AIF
+483,sound,KI_S57,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S57.AIF
+484,sound,KI_S58,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S58.AIF
+485,sound,KI_S59,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S59.AIF
+486,sound,KI_S60,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S60.AIF
+487,sound,KI_S61,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S61.AIF
+488,sound,KI_S62,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S62.AIF
+489,sound,KI_S63,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S63.AIF
+490,sound,KI_S64,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S64.AIF
+491,sound,KI_S65,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S65.AIF
+492,sound,KI_S66,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S66.AIF
+493,sound,KI_S67,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S67.AIF
+494,sound,KI_S68,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S68.AIF
+495,sound,KI_S69,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S69.AIF
+496,sound,KI_S70,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S70.AIF
+497,sound,KI_S71,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S71.AIF
+498,sound,KI_S72,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S72.AIF
+499,sound,KI_S73,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S73.AIF
+500,sound,KI_S74,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\KI_\KI_S74.AIF

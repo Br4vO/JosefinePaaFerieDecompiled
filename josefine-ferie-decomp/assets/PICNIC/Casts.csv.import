@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dqwv1g5op0pc"
+
+[deps]
+
+files=["res://assets/PICNIC/Casts.Name.translation", "res://assets/PICNIC/Casts.Filename.translation"]
+
+source_file="res://assets/PICNIC/Casts.csv"
+dest_files=["res://assets/PICNIC/Casts.Name.translation", "res://assets/PICNIC/Casts.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

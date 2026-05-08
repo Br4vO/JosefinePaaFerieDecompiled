@@ -1,0 +1,755 @@
+Number,Type,Name,Registration Point,Filename
+1,script,Enter 1,"(0, 0)",
+2,script,InitMaze,"(0, 0)",
+3,script,Procs.,"(0, 0)",
+4,script,,"(0, 0)",
+5,script,FileIO,"(0, 0)",
+6,field,,"(0, 0)",
+7,script,Reset,"(0, 0)",
+8,script,Go loop,"(0, 0)",
+9,script,Sound-loop,"(0, 0)",
+10,script,Play done,"(0, 0)",
+11,bitmap,Panel,"(0, 0)",
+12,bitmap,,"(0, 0)",
+13,bitmap,,"(30, 56)",
+14,bitmap,Munn,"(14, 5)",
+15,bitmap,,"(31, 56)",
+16,bitmap,"Gammel, ikke lenger i bruk","(30, 56)",
+17,script,Prøv gjenstand,"(0, 0)",
+18,script,Tilbake-hånd,"(0, 0)",
+19,bitmap,Tilbake,"(21, 21)",
+20,bitmap,,"(22, 21)",
+21,bitmap,V1,"(26, 56)",
+22,bitmap,V2,"(24, 55)",
+23,bitmap,V3,"(24, 56)",
+24,bitmap,V4,"(27, 56)",
+25,bitmap,V5,"(24, 56)",
+26,bitmap,V6,"(24, 57)",
+27,transition,,"(0, 0)",
+28,script,Hjelp(0),"(0, 0)",
+29,script,Hjelp(-1),"(0, 0)",
+31,bitmap,H1,"(26, 57)",
+32,bitmap,H2,"(24, 57)",
+33,bitmap,H3,"(24, 57)",
+34,bitmap,H4,"(27, 57)",
+35,bitmap,H5,"(24, 57)",
+36,bitmap,H6,"(24, 58)",
+37,shape,Nedover,"(0, 0)",
+38,shape,Innover,"(0, 0)",
+39,shape,Venstre,"(0, 0)",
+40,shape,Høyre,"(0, 0)",
+41,bitmap,NedPil,"(14, 16)",
+42,bitmap,,"(14, 16)",
+43,bitmap,,"(16, 14)",
+44,bitmap,,"(16, 14)",
+45,script,Sjekk mus-pos,"(0, 0)",
+46,script,Go loop++,"(0, 0)",
+47,script,Sound-loop++,"(0, 0)",
+48,script,,"(0, 0)",
+51,bitmap,,"(19, 39)",
+52,bitmap,,"(19, 40)",
+53,bitmap,,"(20, 41)",
+54,bitmap,,"(21, 40)",
+55,bitmap,,"(19, 40)",
+56,bitmap,,"(21, 44)",
+57,bitmap,,"(21, 44)",
+58,bitmap,,"(22, 45)",
+59,bitmap,,"(23, 44)",
+60,bitmap,,"(22, 45)",
+61,bitmap,,"(23, 47)",
+62,bitmap,,"(23, 48)",
+63,bitmap,,"(24, 49)",
+64,bitmap,,"(24, 48)",
+65,bitmap,,"(23, 48)",
+66,bitmap,,"(24, 50)",
+67,bitmap,,"(25, 51)",
+68,bitmap,,"(25, 51)",
+69,bitmap,,"(26, 51)",
+70,bitmap,,"(25, 51)",
+71,bitmap,,"(25, 52)",
+72,bitmap,,"(25, 52)",
+73,bitmap,,"(26, 53)",
+74,bitmap,,"(26, 52)",
+75,bitmap,,"(26, 53)",
+76,bitmap,,"(26, 53)",
+77,bitmap,,"(26, 53)",
+78,bitmap,,"(27, 54)",
+79,bitmap,,"(27, 53)",
+80,bitmap,,"(26, 54)",
+81,bitmap,,"(27, 52)",
+82,bitmap,,"(25, 53)",
+83,bitmap,,"(26, 54)",
+84,bitmap,,"(27, 52)",
+85,bitmap,,"(25, 52)",
+86,bitmap,,"(26, 51)",
+87,bitmap,,"(25, 52)",
+88,bitmap,,"(25, 53)",
+89,bitmap,,"(26, 51)",
+90,bitmap,,"(24, 51)",
+91,bitmap,,"(26, 50)",
+92,bitmap,,"(24, 51)",
+93,bitmap,,"(25, 51)",
+94,bitmap,,"(25, 50)",
+95,bitmap,,"(23, 48)",
+96,bitmap,,"(24, 47)",
+97,bitmap,,"(23, 48)",
+98,bitmap,,"(23, 48)",
+99,bitmap,,"(24, 47)",
+100,bitmap,,"(21, 44)",
+101,bitmap,,"(22, 43)",
+102,bitmap,,"(21, 44)",
+103,bitmap,,"(21, 44)",
+104,bitmap,,"(22, 43)",
+105,bitmap,,"(19, 40)",
+106,bitmap,,"(20, 39)",
+107,bitmap,,"(19, 40)",
+108,bitmap,,"(19, 40)",
+109,bitmap,,"(20, 39)",
+111,script,Vandrer 1,"(0, 0)",
+112,script,Vandrer 2,"(0, 0)",
+113,script,Vandrer 3,"(0, 0)",
+114,bitmap,Tunell 1,"(0, 0)",
+115,bitmap,Tunell 2,"(0, 0)",
+116,bitmap,Rett01,"(0, 0)",
+117,bitmap,Rett04,"(320, 208)",
+181,bitmap,Inngang,"(0, 0)",
+182,script,Skjul alle gjenstander,"(0, 0)",
+191,bitmap,02Pusle,"(0, 0)",
+192,bitmap,,"(43, 14)",
+193,bitmap,,"(34, 19)",
+194,script,Pusle02,"(0, 0)",
+195,script,Til Puzzle,"(0, 0)",
+196,script,02Til01,"(0, 0)",
+197,script,02Til03,"(0, 0)",
+198,script,Init-02,"(0, 0)",
+199,script,Talk-02A,"(0, 0)",
+200,script,Talk-02B,"(0, 0)",
+201,bitmap,03Kryss,"(0, 0)",
+202,bitmap,,"(50, 80)",
+203,bitmap,,"(50, 106)",
+205,script,03Til02,"(0, 0)",
+206,script,03Til04,"(0, 0)",
+207,script,03Til05,"(0, 0)",
+208,script,03Til06,"(0, 0)",
+209,script,Init-03,"(0, 0)",
+210,script,Talk-03,"(0, 0)",
+211,bitmap,,"(5, 5)",
+212,bitmap,,"(5, 5)",
+213,bitmap,,"(7, 5)",
+214,bitmap,,"(8, 6)",
+215,bitmap,,"(9, 7)",
+216,bitmap,,"(9, 9)",
+217,bitmap,,"(9, 9)",
+218,bitmap,,"(9, 9)",
+219,bitmap,,"(9, 9)",
+220,filmLoop,Mark,"(9, 9)",
+221,bitmap,04Blindvei,"(0, 0)",
+222,bitmap,Krok,"(3, 6)",
+223,bitmap,Noekkel1,"(33, 11)",
+224,bitmap,Noekkel1Panel,"(39, 14)",
+225,script,Ta nøkkel 1,"(0, 0)",
+228,script,04Til03,"(0, 0)",
+229,script,Init-04,"(0, 0)",
+230,script,Talk-04,"(0, 0)",
+231,bitmap,05Blindvei,"(0, 0)",
+232,sound,BANKING,"(0, 0)",
+237,script,05Til03,"(0, 0)",
+238,script,Init-05,"(0, 0)",
+239,script,Exit-05,"(0, 0)",
+240,script,Talk-05,"(0, 0)",
+241,bitmap,06Kryss,"(0, 0)",
+242,bitmap,,"(45, 86)",
+243,bitmap,,"(48, 82)",
+244,script,06Til03,"(0, 0)",
+245,script,06Til07,"(0, 0)",
+246,script,06Til08,"(0, 0)",
+247,script,06Til09,"(0, 0)",
+248,script,Sjekk dør-status,"(0, 0)",
+249,script,Init-06,"(0, 0)",
+250,script,Talk-06,"(0, 0)",
+251,bitmap,07Blindvei,"(0, 0)",
+252,sound,DRYPPER,"(0, 0)",
+256,script,Utover7,"(0, 0)",
+257,script,Innover7,"(0, 0)",
+258,script,07Til06,"(0, 0)",
+259,script,Init-07,"(0, 0)",
+260,script,Talk-07,"(0, 0)",
+261,bitmap,08Blindvei,"(0, 0)",
+262,bitmap,Edderkopp,"(48, 21)",
+263,script,Ta edderkopp,"(0, 0)",
+268,script,08Til06,"(0, 0)",
+269,script,Init-08,"(0, 0)",
+270,script,Talk-08,"(0, 0)",
+271,bitmap,09Dør,"(0, 0)",
+272,bitmap,,"(47, 87)",
+273,bitmap,,"(35, 88)",
+274,bitmap,,"(21, 89)",
+275,bitmap,,"(10, 90)",
+276,bitmap,,"(64, 41)",
+277,script,Init-09,"(0, 0)",
+278,script,Talk-09A,"(0, 0)",
+279,script,Talk-09B,"(0, 0)",
+280,script,Talk-09C,"(0, 0)",
+281,script,09ATil06,"(0, 0)",
+282,script,09BTil06,"(0, 0)",
+283,script,09Til06,"(0, 0)",
+284,script,09ATil10,"(0, 0)",
+285,script,09Til10,"(0, 0)",
+286,script,Sjekk spøkelse-status,"(0, 0)",
+287,script,Bruk noekkel 1,"(0, 0)",
+288,sound,KNIRK,"(0, 0)",
+290,sound,SPOEK,"(0, 0)",
+291,bitmap,10Hinder,"(0, 0)",
+292,filmLoop,Ghost,"(102, 97)",
+293,script,10ATil09,"(0, 0)",
+294,script,10BTil09,"(0, 0)",
+295,script,10Til09,"(0, 0)",
+296,script,10Til11,"(0, 0)",
+297,script,Bruk edderkopp,"(0, 0)",
+298,script,Init-10,"(0, 0)",
+299,script,Talk-10A,"(0, 0)",
+300,script,Talk-10B,"(0, 0)",
+301,bitmap,,"(62, 87)",
+302,bitmap,,"(62, 87)",
+303,bitmap,,"(63, 87)",
+304,bitmap,,"(62, 87)",
+305,sound,PLOPP.AIF,"(0, 0)",
+306,bitmap,,"(20, 15)",
+307,bitmap,,"(26, 22)",
+308,bitmap,,"(36, 33)",
+309,bitmap,,"(40, 45)",
+310,bitmap,,"(45, 46)",
+311,bitmap,11Bokstaver,"(0, 0)",
+312,bitmap,,"(73, 24)",
+313,script,Velg oppgave i 11,"(0, 0)",
+314,script,Avgir svar,"(0, 0)",
+315,script,Fjern tavle,"(0, 0)",
+316,script,11Til10,"(0, 0)",
+317,script,11Til12,"(0, 0)",
+318,script,Init-11,"(0, 0)",
+319,script,Talk-11A,"(0, 0)",
+320,script,Talk-11B,"(0, 0)",
+321,bitmap,Oppgave6,"(58, 36)",
+322,bitmap,Svar6,"(58, 36)",
+323,bitmap,Oppgave7,"(58, 36)",
+324,bitmap,Svar7,"(58, 36)",
+325,bitmap,Oppgave8,"(58, 36)",
+326,bitmap,Svar8,"(58, 36)",
+327,bitmap,Oppgave9,"(58, 36)",
+328,bitmap,Svar9,"(58, 36)",
+329,sound,PLING.AIF,"(0, 0)",
+330,bitmap,,"(65, 53)",
+331,bitmap,Tallet11_1,"(6, 12)",
+332,bitmap,Tallet11_2,"(9, 13)",
+333,bitmap,Tallet11_3,"(7, 11)",
+334,bitmap,Tallet11_4,"(17, 26)",
+335,bitmap,Tallet11_5,"(12, 18)",
+336,bitmap,Tallet11_6,"(6, 10)",
+337,bitmap,Tallet11_7,"(9, 13)",
+338,bitmap,Tallet11_8,"(8, 13)",
+339,bitmap,Tallet11_9,"(11, 14)",
+341,bitmap,12Kryss,"(0, 0)",
+342,bitmap,,"(46, 96)",
+343,bitmap,,"(43, 67)",
+344,bitmap,,"(47, 96)",
+345,script,12Til11,"(0, 0)",
+346,script,12Til13,"(0, 0)",
+347,script,12Til17,"(0, 0)",
+348,script,12Til18,"(0, 0)",
+349,script,Init-12,"(0, 0)",
+350,script,Talk-12,"(0, 0)",
+351,filmLoop,Sopp,"(19, 23)",
+352,bitmap,,"(17, 14)",
+353,bitmap,,"(17, 14)",
+354,bitmap,,"(17, 14)",
+355,bitmap,,"(18, 14)",
+356,bitmap,,"(18, 14)",
+357,bitmap,,"(17, 16)",
+358,bitmap,,"(17, 21)",
+359,bitmap,,"(17, 23)",
+360,bitmap,,"(17, 23)",
+361,bitmap,,"(17, 23)",
+362,bitmap,,"(17, 23)",
+370,bitmap,,"(197, 19)",
+371,bitmap,13Kryss,"(0, 0)",
+372,bitmap,,"(47, 80)",
+373,bitmap,,"(43, 88)",
+374,bitmap,,"(17, 14)",
+375,script,13Til12,"(0, 0)",
+376,script,13Til14,"(0, 0)",
+377,script,13Til15,"(0, 0)",
+378,script,13Til16,"(0, 0)",
+379,script,Init-13,"(0, 0)",
+380,script,Talk-13,"(0, 0)",
+381,bitmap,15Blindvei,"(0, 0)",
+388,script,15Til13,"(0, 0)",
+389,script,Init-15,"(0, 0)",
+390,script,Talk-15,"(0, 0)",
+391,bitmap,,"(7, 4)",
+392,bitmap,,"(14, 7)",
+393,bitmap,,"(23, 10)",
+394,bitmap,,"(35, 14)",
+395,bitmap,,"(41, 18)",
+396,bitmap,,"(41, 18)",
+397,bitmap,,"(41, 33)",
+398,bitmap,,"(29, 35)",
+399,bitmap,,"(29, 35)",
+400,sound,REGN.AIF,"(0, 0)",
+401,bitmap,16Blindvei,"(0, 0)",
+402,filmLoop,Muse-loop,"(71, 60)",
+403,sound,MUSEKOR,"(0, 0)",
+404,bitmap,,"(28, 27)",
+405,bitmap,,"(23, 26)",
+406,bitmap,,"(27, 28)",
+407,script,16Til13,"(0, 0)",
+408,script,Init-16,"(0, 0)",
+409,script,Exit-16,"(0, 0)",
+410,script,Talk-16,"(0, 0)",
+411,bitmap,,"(93, 56)",
+412,bitmap,,"(29, 27)",
+413,bitmap,,"(29, 27)",
+414,bitmap,,"(29, 27)",
+415,bitmap,,"(29, 27)",
+416,bitmap,,"(29, 27)",
+417,bitmap,,"(29, 27)",
+418,bitmap,,"(29, 27)",
+419,bitmap,,"(29, 13)",
+420,bitmap,,"(14, 14)",
+421,bitmap,,"(23, 14)",
+422,bitmap,,"(23, 14)",
+423,bitmap,,"(23, 13)",
+424,bitmap,,"(23, 14)",
+425,bitmap,,"(23, 15)",
+426,bitmap,,"(27, 27)",
+427,bitmap,,"(27, 27)",
+428,bitmap,,"(27, 27)",
+429,bitmap,,"(27, 27)",
+430,bitmap,,"(27, 27)",
+441,bitmap,17Blindvei,"(0, 0)",
+442,bitmap,,"(22, 11)",
+443,script,17Til12,"(0, 0)",
+444,script,Init-17,"(0, 0)",
+445,script,Talk-17,"(0, 0)",
+447,filmLoop,Elefant,"(310, 108)",
+448,bitmap,,"(25, 27)",
+449,bitmap,,"(25, 27)",
+450,bitmap,,"(22, 29)",
+451,bitmap,,"(23, 28)",
+452,bitmap,,"(29, 23)",
+453,bitmap,,"(25, 29)",
+454,bitmap,,"(18, 31)",
+455,bitmap,,"(6, 2)",
+456,bitmap,,"(8, 3)",
+457,bitmap,,"(10, 3)",
+458,bitmap,,"(12, 3)",
+459,bitmap,,"(14, 3)",
+460,bitmap,,"(17, 4)",
+461,bitmap,18Gang,"(0, 0)",
+462,bitmap,Kjoettbein,"(28, 8)",
+463,script,Ta kjøttbein,"(0, 0)",
+465,bitmap,Bækkøpp,"(34, 8)",
+467,script,18Til12,"(0, 0)",
+468,script,18Til19,"(0, 0)",
+469,script,Init-18,"(0, 0)",
+470,script,Talk-18,"(0, 0)",
+471,bitmap,19Kryss,"(0, 0)",
+472,bitmap,,"(40, 86)",
+473,bitmap,,"(39, 89)",
+474,bitmap,,"(20, 13)",
+475,script,19Til18,"(0, 0)",
+476,script,19Til20,"(0, 0)",
+477,script,19Til21,"(0, 0)",
+478,script,19Til28,"(0, 0)",
+479,script,Init-19,"(0, 0)",
+480,script,Talk-19,"(0, 0)",
+481,bitmap,20Hund,"(0, 0)",
+482,bitmap,Lyspaere,"(9, 15)",
+483,script,Ta lyspaere,"(0, 0)",
+484,sound,HUND,"(0, 0)",
+485,script,20Til19,"(0, 0)",
+486,script,20ATil19,"(0, 0)",
+487,script,20BTil19,"(0, 0)",
+488,script,Init-20B,"(0, 0)",
+489,script,Talk-20A,"(0, 0)",
+490,script,Talk-20B,"(0, 0)",
+491,script,Sjekk kjøttbein-status,"(0, 0)",
+492,script,Bruk kjøttbein,"(0, 0)",
+493,filmLoop,Pipe,"(39, 66)",
+494,bitmap,,"(20, 22)",
+495,bitmap,,"(23, 21)",
+496,bitmap,,"(28, 18)",
+497,bitmap,,"(32, 17)",
+498,bitmap,,"(20, 23)",
+499,bitmap,,"(20, 25)",
+500,bitmap,,"(20, 26)",
+501,bitmap,,"(6, 3)",
+502,bitmap,,"(22, 14)",
+503,bitmap,,"(34, 25)",
+504,bitmap,,"(32, 34)",
+505,bitmap,,"(34, 44)",
+506,bitmap,,"(34, 37)",
+507,filmLoop,Hund,"(37, 36)",
+508,bitmap,,"(34, 36)",
+509,bitmap,,"(34, 36)",
+510,bitmap,,"(34, 36)",
+511,bitmap,,"(34, 36)",
+512,bitmap,,"(34, 36)",
+513,bitmap,,"(4, 4)",
+514,bitmap,,"(3, 4)",
+515,bitmap,,"(5, 7)",
+516,bitmap,,"(6, 5)",
+517,bitmap,,"(7, 5)",
+518,filmLoop,Øyne,"(44, 53)",
+519,bitmap,Øyne2,"(4, 1)",
+520,bitmap,Øyne3,"(7, 2)",
+521,bitmap,21Kryss,"(0, 0)",
+522,bitmap,,"(40, 86)",
+523,bitmap,,"(39, 91)",
+524,bitmap,,"(22, 13)",
+525,script,21Til19,"(0, 0)",
+526,script,21Til22,"(0, 0)",
+527,script,21Til23,"(0, 0)",
+528,script,21Til24,"(0, 0)",
+529,script,Init-21,"(0, 0)",
+530,script,Talk-21,"(0, 0)",
+540,script,Talk-22,"(0, 0)",
+541,bitmap,23Puslespill,"(0, 0)",
+542,bitmap,,"(21, 11)",
+543,script,Pusle23,"(0, 0)",
+546,script,23Til21,"(0, 0)",
+547,script,23Til32,"(0, 0)",
+548,script,Init-23,"(0, 0)",
+549,script,Talk-23A,"(0, 0)",
+550,script,Talk-23B,"(0, 0)",
+551,bitmap,24Kryss,"(0, 0)",
+552,bitmap,,"(41, 75)",
+553,bitmap,,"(35, 85)",
+554,bitmap,,"(32, 26)",
+555,script,24Til21,"(0, 0)",
+556,script,24Til25,"(0, 0)",
+557,script,24Til26,"(0, 0)",
+558,script,24Til27,"(0, 0)",
+559,script,Init-24,"(0, 0)",
+560,script,Talk-24,"(0, 0)",
+561,bitmap,,"(8, 15)",
+562,bitmap,,"(8, 15)",
+563,bitmap,,"(5, 13)",
+564,bitmap,,"(8, 16)",
+565,filmLoop,Flamme1,"(11, 17)",
+566,filmLoop,Flamme2,"(12, 15)",
+571,bitmap,25Blindvei,"(0, 0)",
+578,script,25Til24,"(0, 0)",
+579,script,Init-25,"(0, 0)",
+580,script,Talk-25,"(0, 0)",
+581,filmLoop,Roeykeloop,"(50, 57)",
+582,bitmap,,"(41, 48)",
+583,bitmap,,"(41, 49)",
+584,bitmap,,"(42, 49)",
+585,bitmap,,"(3, 2)",
+586,bitmap,,"(9, 7)",
+587,bitmap,,"(14, 10)",
+588,bitmap,,"(21, 17)",
+589,bitmap,,"(20, 20)",
+590,script,Talk-26,"(0, 0)",
+591,bitmap,27Blindvei,"(0, 0)",
+592,filmLoop,Bobler,"(34, 54)",
+593,sound,BOBLENE,"(0, 0)",
+597,script,27Til24,"(0, 0)",
+598,script,Init-27,"(0, 0)",
+599,script,Exit-27,"(0, 0)",
+600,script,Talk-27,"(0, 0)",
+601,bitmap,,"(3, 4)",
+602,bitmap,,"(2, 2)",
+603,bitmap,,"(4, 4)",
+604,bitmap,,"(7, 6)",
+605,bitmap,,"(7, 6)",
+606,bitmap,,"(4, 4)",
+607,bitmap,,"(2, 2)",
+608,bitmap,,"(2, 2)",
+609,bitmap,,"(4, 4)",
+610,bitmap,,"(7, 6)",
+611,bitmap,28Memory,"(0, 0)",
+612,bitmap,,"(23, 11)",
+613,script,Mem28,"(0, 0)",
+614,script,Til Memory,"(0, 0)",
+616,script,28Til19,"(0, 0)",
+617,script,28Til29,"(0, 0)",
+618,script,Init-28,"(0, 0)",
+619,script,Talk-28A,"(0, 0)",
+620,script,Talk-28B,"(0, 0)",
+621,bitmap,29Kryss,"(0, 0)",
+622,bitmap,,"(47, 74)",
+623,bitmap,,"(47, 74)",
+624,bitmap,,"(27, 64)",
+625,script,29Til28,"(0, 0)",
+626,script,29Til29B,"(0, 0)",
+627,script,29Til29A,"(0, 0)",
+628,script,29Til32,"(0, 0)",
+629,script,Init-29,"(0, 0)",
+630,script,Talk-29,"(0, 0)",
+631,filmLoop,MannOgSopp,"(26, 71)",
+632,bitmap,,"(17, 17)",
+633,bitmap,,"(17, 17)",
+634,bitmap,,"(17, 17)",
+635,bitmap,,"(17, 17)",
+636,bitmap,,"(3, 4)",
+637,bitmap,,"(3, 4)",
+638,bitmap,,"(3, 4)",
+639,bitmap,,"(3, 3)",
+640,bitmap,,"(5, 4)",
+641,bitmap,,"(4, 5)",
+642,bitmap,,"(3, 5)",
+643,bitmap,,"(3, 4)",
+644,bitmap,,"(3, 4)",
+645,bitmap,,"(3, 4)",
+646,bitmap,,"(3, 4)",
+647,bitmap,,"(3, 4)",
+648,bitmap,,"(4, 4)",
+649,bitmap,,"(5, 4)",
+650,bitmap,,"(6, 5)",
+651,bitmap,,"(7, 6)",
+652,bitmap,,"(8, 8)",
+653,bitmap,,"(8, 12)",
+654,bitmap,,"(10, 14)",
+655,bitmap,,"(16, 15)",
+656,bitmap,,"(19, 19)",
+657,script,Gå i ring,"(0, 0)",
+661,bitmap,31Blindvei,"(0, 0)",
+662,sound,ELECTRO,"(0, 0)",
+667,script,31Til34,"(0, 0)",
+668,script,Init-31,"(0, 0)",
+669,script,Exit-31,"(0, 0)",
+670,script,Talk-31,"(0, 0)",
+671,bitmap,32Kryss,"(0, 0)",
+672,bitmap,,"(41, 82)",
+673,bitmap,,"(31, 82)",
+674,script,Sjekk lyspære-status,"(0, 0)",
+675,script,32Til23,"(0, 0)",
+676,script,32Til29,"(0, 0)",
+677,script,32Til33,"(0, 0)",
+678,script,32Til37,"(0, 0)",
+679,script,Init-32,"(0, 0)",
+680,script,Talk-32,"(0, 0)",
+681,bitmap,33Mørkt,"(0, 0)",
+682,bitmap,33Lyst,"(0, 0)",
+683,shape,Lampe-rekt.,"(0, 0)",
+684,script,Bruk lyspære,"(0, 0)",
+688,script,Init-33,"(0, 0)",
+689,script,Talk-33A,"(0, 0)",
+690,script,Talk-33B,"(0, 0)",
+691,script,33ATil32,"(0, 0)",
+692,script,33BTil32,"(0, 0)",
+693,script,33Til32,"(0, 0)",
+694,script,33Til34,"(0, 0)",
+701,bitmap,34Kryss,"(0, 0)",
+702,bitmap,,"(49, 76)",
+703,bitmap,,"(39, 74)",
+705,script,34Til33,"(0, 0)",
+706,script,34Til35,"(0, 0)",
+707,script,34Til31,"(0, 0)",
+708,script,34Til38,"(0, 0)",
+709,script,Init-34,"(0, 0)",
+710,script,Talk-34,"(0, 0)",
+711,bitmap,35Blindvei,"(0, 0)",
+718,script,35Til34,"(0, 0)",
+719,script,Init-35,"(0, 0)",
+720,script,Talk-35,"(0, 0)",
+721,bitmap,37Blindvei,"(0, 0)",
+728,script,37Til32,"(0, 0)",
+729,script,Init-37,"(0, 0)",
+730,script,Talk-37,"(0, 0)",
+751,script,Til 01,"(0, 0)",
+752,script,Til 02,"(0, 0)",
+753,script,Til 03,"(0, 0)",
+754,script,Til 04,"(0, 0)",
+755,script,Til 05,"(0, 0)",
+756,script,Til 06,"(0, 0)",
+757,script,Til 07,"(0, 0)",
+758,script,Til 08,"(0, 0)",
+759,script,Til 09A,"(0, 0)",
+760,script,Til 09B,"(0, 0)",
+761,script,Til 10A,"(0, 0)",
+762,script,Til 10B,"(0, 0)",
+763,script,Til 11,"(0, 0)",
+764,script,Til 12,"(0, 0)",
+765,script,Til 13,"(0, 0)",
+766,script,Til 14,"(0, 0)",
+767,script,Til 15,"(0, 0)",
+768,script,Til 16,"(0, 0)",
+769,script,Til 17,"(0, 0)",
+770,script,Til 18,"(0, 0)",
+771,script,Til 18B,"(0, 0)",
+772,script,Til 19,"(0, 0)",
+773,script,Til 20A,"(0, 0)",
+774,script,Til 20B,"(0, 0)",
+775,script,Til 21,"(0, 0)",
+776,script,Til 22,"(0, 0)",
+777,script,Til 23,"(0, 0)",
+778,script,Til 24,"(0, 0)",
+779,script,Til 25,"(0, 0)",
+780,script,Til 26,"(0, 0)",
+781,script,Til 27,"(0, 0)",
+782,script,Til 28,"(0, 0)",
+783,script,Til 29,"(0, 0)",
+784,script,Til 30,"(0, 0)",
+785,script,Til 31,"(0, 0)",
+786,script,Til 32,"(0, 0)",
+787,script,Til 33A,"(0, 0)",
+788,script,Til 33B,"(0, 0)",
+789,script,Til 34,"(0, 0)",
+790,script,Til 35,"(0, 0)",
+791,script,Til 36,"(0, 0)",
+792,script,Til 37,"(0, 0)",
+793,script,Til skatten,"(0, 0)",
+813,sound,MAH_N01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MAH_N01.AIF
+814,sound,MAH_S01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MAH_S01.AIF
+965,sound,MA_N01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N01.AIF
+966,sound,MA_N02,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N02.AIF
+967,sound,MA_N03,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N03.AIF
+968,sound,MA_N04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N04.AIF
+969,sound,MA_N05,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N05.AIF
+970,sound,MA_N06,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N06.AIF
+971,sound,MA_N07,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N07.AIF
+972,sound,MA_N08,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N08.AIF
+973,sound,MA_N09,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N09.AIF
+974,sound,MA_N10,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N10.AIF
+975,sound,MA_N11,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N11.AIF
+976,sound,MA_N12,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N12.AIF
+977,sound,MA_N13,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N13.AIF
+978,sound,MA_N14,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N14.AIF
+979,sound,MA_N15,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N15.AIF
+980,sound,MA_N16,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N16.AIF
+981,sound,MA_N17,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N17.AIF
+982,sound,MA_N18,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N18.AIF
+983,sound,MA_N19,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N19.AIF
+984,sound,MA_N20,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N20.AIF
+985,sound,MA_N21,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N21.AIF
+986,sound,MA_N22,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N22.AIF
+987,sound,MA_N23,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N23.AIF
+988,sound,MA_N24,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N24.AIF
+989,sound,MA_N25,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N25.AIF
+990,sound,MA_N26,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N26.AIF
+991,sound,MA_N27,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N27.AIF
+992,sound,MA_N28,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N28.AIF
+993,sound,MA_N29,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N29.AIF
+994,sound,MA_N30,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N30.AIF
+995,sound,MA_N31,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N31.AIF
+996,sound,MA_N32,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N32.AIF
+997,sound,MA_N33,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N33.AIF
+998,sound,MA_N34,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N34.AIF
+999,sound,MA_N35,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N35.AIF
+1000,sound,MA_N36,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N36.AIF
+1001,sound,MA_N37,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N37.AIF
+1002,sound,MA_N38,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N38.AIF
+1003,sound,MA_N39,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N39.AIF
+1004,sound,MA_N40,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N40.AIF
+1005,sound,MA_N41,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N41.AIF
+1006,sound,MA_N42,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N42.AIF
+1007,sound,MA_N43,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N43.AIF
+1008,sound,MA_N44,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N44.AIF
+1009,sound,MA_N45,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N45.AIF
+1010,sound,MA_N46,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N46.AIF
+1011,sound,MA_N47,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N47.AIF
+1012,sound,MA_N48,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N48.AIF
+1013,sound,MA_N49,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N49.AIF
+1014,sound,MA_N50,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N50.AIF
+1015,sound,MA_N51,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N51.AIF
+1016,sound,MA_N52,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N52.AIF
+1017,sound,MA_N53,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N53.AIF
+1018,sound,MA_N54,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N54.AIF
+1019,sound,MA_N55,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N55.AIF
+1020,sound,MA_N56,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N56.AIF
+1021,sound,MA_N57,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N57.AIF
+1022,sound,MA_N58,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N58.AIF
+1023,sound,MA_N59,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N59.AIF
+1024,sound,MA_N60,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N60.AIF
+1025,sound,MA_N61,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N61.AIF
+1026,sound,MA_N62,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N62.AIF
+1027,sound,MA_N63,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N63.AIF
+1028,sound,MA_N64,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N64.AIF
+1029,sound,MA_N65,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N65.AIF
+1030,sound,MA_N66,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N66.AIF
+1031,sound,MA_N67,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N67.AIF
+1032,sound,MA_N68,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N68.AIF
+1033,sound,MA_N69,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N69.AIF
+1034,sound,MA_N70,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N70.AIF
+1035,sound,MA_N71,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N71.AIF
+1036,sound,MA_N72,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N72.AIF
+1037,sound,MA_N73,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N73.AIF
+1038,sound,MA_N74,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N74.AIF
+1039,sound,MA_N75,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_N75.AIF
+1040,sound,MA_S01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S01.AIF
+1041,sound,MA_S02,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S02.AIF
+1042,sound,MA_S03,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S03.AIF
+1043,sound,MA_S04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S04.AIF
+1044,sound,MA_S05,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S05.AIF
+1045,sound,MA_S06,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S06.AIF
+1046,sound,MA_S07,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S07.AIF
+1047,sound,MA_S08,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S08.AIF
+1048,sound,MA_S09,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S09.AIF
+1049,sound,MA_S10,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S10.AIF
+1050,sound,MA_S11,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S11.AIF
+1051,sound,MA_S12,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S12.AIF
+1052,sound,MA_S13,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S13.AIF
+1053,sound,MA_S14,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S14.AIF
+1054,sound,MA_S15,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S15.AIF
+1055,sound,MA_S16,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S16.AIF
+1056,sound,MA_S17,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S17.AIF
+1057,sound,MA_S18,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S18.AIF
+1058,sound,MA_S19,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S19.AIF
+1059,sound,MA_S20,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S20.AIF
+1060,sound,MA_S21,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S21.AIF
+1061,sound,MA_S22,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S22.AIF
+1062,sound,MA_S23,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S23.AIF
+1063,sound,MA_S24,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S24.AIF
+1064,sound,MA_S25,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S25.AIF
+1065,sound,MA_S26,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S26.AIF
+1066,sound,MA_S27,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S27.AIF
+1067,sound,MA_S28,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S28.AIF
+1068,sound,MA_S29,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S29.AIF
+1069,sound,MA_S30,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S30.AIF
+1070,sound,MA_S31,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S31.AIF
+1071,sound,MA_S32,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S32.AIF
+1072,sound,MA_S33,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S33.AIF
+1073,sound,MA_S34,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S34.AIF
+1074,sound,MA_S35,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S35.AIF
+1075,sound,MA_S36,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S36.AIF
+1076,sound,MA_S37,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S37.AIF
+1077,sound,MA_S38,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S38.AIF
+1078,sound,MA_S39,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S39.AIF
+1079,sound,MA_S40,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S40.AIF
+1080,sound,MA_S41,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S41.AIF
+1081,sound,MA_S42,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S42.AIF
+1082,sound,MA_S43,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S43.AIF
+1083,sound,MA_S44,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S44.AIF
+1084,sound,MA_S45,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S45.AIF
+1085,sound,MA_S46,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S46.AIF
+1086,sound,MA_S47,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S47.AIF
+1087,sound,MA_S48,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S48.AIF
+1088,sound,MA_S49,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S49.AIF
+1089,sound,MA_S50,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S50.AIF
+1090,sound,MA_S51,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S51.AIF
+1091,sound,MA_S52,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S52.AIF
+1092,sound,MA_S53,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S53.AIF
+1093,sound,MA_S54,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S54.AIF
+1094,sound,MA_S55,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S55.AIF
+1095,sound,MA_S56,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S56.AIF
+1096,sound,MA_S57,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S57.AIF
+1097,sound,MA_S58,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S58.AIF
+1098,sound,MA_S59,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S59.AIF
+1099,sound,MA_S60,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S60.AIF
+1100,sound,MA_S61,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S61.AIF
+1101,sound,MA_S62,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S62.AIF
+1102,sound,MA_S63,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S63.AIF
+1103,sound,MA_S64,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S64.AIF
+1104,sound,MA_S65,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S65.AIF
+1105,sound,MA_S66,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S66.AIF
+1106,sound,MA_S67,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S67.AIF
+1107,sound,MA_S68,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S68.AIF
+1108,sound,MA_S69,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S69.AIF
+1109,sound,MA_S70,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S70.AIF
+1110,sound,MA_S71,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S71.AIF
+1111,sound,MA_S72,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S72.AIF
+1112,sound,MA_S73,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S73.AIF
+1113,sound,MA_S74,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S74.AIF
+1114,sound,MA_S75,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\MA_\MA_S75.AIF

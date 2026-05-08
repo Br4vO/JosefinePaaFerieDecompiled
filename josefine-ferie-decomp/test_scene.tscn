@@ -1,8 +1,19 @@
 [gd_scene format=3 uid="uid://bs2tpsfrxkkah"]
 
-[ext_resource type="Script" uid="uid://c1n2p14jhy65d" path="res://test_extraction.gd" id="1_uhqqe"]
+[ext_resource type="Texture2D" uid="uid://b34m0yxsvep64" path="res://assets/PICNIC/41_Dag.ny.png" id="1_uhqqe"]
+[ext_resource type="Script" uid="uid://bkatjvw14hiee" path="res://scripts/Camera-movement.gd" id="2_ia1lp"]
 
-[node name="Node2D" type="Node2D" unique_id=891896470]
-script = ExtResource("1_uhqqe")
+[node name="Picnic" type="Node2D" unique_id=1626720372]
+script = ExtResource("2_ia1lp")
 
-[node name="Haand" type="Sprite2D" parent="." unique_id=541472891]
+[node name="Background" type="Sprite2D" parent="." unique_id=1429836938]
+texture = ExtResource("1_uhqqe")
+centered = false
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=203414202]
+position = Vector2(320, 240)
+limit_left = 0
+limit_top = 0
+limit_right = 1000
+limit_bottom = 480
+position_smoothing_enabled = true

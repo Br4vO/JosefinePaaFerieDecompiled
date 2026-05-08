@@ -1,0 +1,128 @@
+Number,Type,Name,Registration Point,Filename
+1,bitmap,,"(320, 240)",
+2,bitmap,,"(320, 156)",
+3,bitmap,fakeSprite,"(0, 0)",
+4,bitmap,,"(34, 26)",
+5,bitmap,Quit,"(22, 21)",
+6,bitmap,Til hovedscene,"(21, 21)",
+7,bitmap,Help,"(22, 21)",
+8,bitmap,goStart,"(23, 21)",
+9,bitmap,white,"(246, 51)",
+10,bitmap,,"(107, 59)",
+11,bitmap,,"(15, 6)",
+12,filmLoop,blinking,"(48, 22)",
+13,bitmap,,"(48, 22)",
+14,field,JPoints,"(0, 0)",
+15,field,MPoints,"(0, 0)",
+16,field,Name,"(0, 0)",
+17,bitmap,,"(66, 111)",
+18,bitmap,,"(43, 20)",
+19,transition,,"(0, 0)",
+21,bitmap,Brett1,"(109, 139)",
+22,bitmap,1-1,"(35, 45)",
+23,bitmap,1-2,"(35, 45)",
+24,bitmap,1-3,"(35, 45)",
+25,bitmap,1-4,"(35, 45)",
+26,bitmap,1-5,"(35, 45)",
+27,bitmap,1-6,"(35, 45)",
+28,bitmap,1-7,"(35, 45)",
+29,bitmap,1-8,"(35, 45)",
+30,bitmap,1-9,"(35, 45)",
+31,bitmap,Brett2,"(109, 139)",
+32,bitmap,2-1,"(35, 45)",
+33,bitmap,2-2,"(35, 45)",
+34,bitmap,2-3,"(35, 45)",
+35,bitmap,2-4,"(35, 45)",
+36,bitmap,2-5,"(35, 45)",
+37,bitmap,2-6,"(35, 45)",
+38,bitmap,2-7,"(35, 45)",
+39,bitmap,2-8,"(35, 45)",
+40,bitmap,2-9,"(35, 45)",
+41,bitmap,Brett3,"(109, 139)",
+42,bitmap,3-1,"(35, 45)",
+43,bitmap,3-2,"(35, 45)",
+44,bitmap,3-3,"(35, 45)",
+45,bitmap,3-4,"(35, 45)",
+46,bitmap,3-5,"(35, 45)",
+47,bitmap,3-6,"(35, 45)",
+48,bitmap,3-7,"(35, 45)",
+49,bitmap,3-8,"(35, 45)",
+50,bitmap,3-9,"(35, 45)",
+51,bitmap,Brett4,"(109, 139)",
+52,bitmap,4-1,"(35, 45)",
+53,bitmap,4-2,"(35, 45)",
+54,bitmap,4-3,"(35, 45)",
+55,bitmap,4-4,"(35, 45)",
+56,bitmap,4-5,"(35, 45)",
+57,bitmap,4-6,"(35, 45)",
+58,bitmap,4-7,"(35, 45)",
+59,bitmap,4-8,"(35, 45)",
+60,bitmap,4-9,"(35, 45)",
+61,script,Hjelp1,"(0, 0)",
+62,script,Hjelp2,"(0, 0)",
+63,script,Hjelp3,"(0, 0)",
+64,script,Hjelp 4,"(0, 0)",
+65,script,,"(0, 0)",
+71,script,Init,"(0, 0)",
+72,script,NewDeal,"(0, 0)",
+73,script,loop,"(0, 0)",
+74,script,go talk,"(0, 0)",
+75,script,Talkloop,"(0, 0)",
+76,script,Talkloop2,"(0, 0)",
+77,script,done,"(0, 0)",
+78,script,,"(0, 0)",
+79,script,editableText,"(0, 0)",
+80,script,Kall TrekkEtKort(),"(0, 0)",
+81,script,Kall FlyttKortet(),"(0, 0)",
+82,script,TrekkEtKort(),"(0, 0)",
+83,script,,"(0, 0)",
+84,script,,"(0, 0)",
+91,sound,FANFARE1,"(0, 0)",
+92,sound,FANFARE2,"(0, 0)",
+93,sound,FANFARE3,"(0, 0)",
+94,sound,FANFARE4,"(0, 0)",
+95,sound,FANFARE5,"(0, 0)",
+96,sound,FANFARE6,"(0, 0)",
+97,sound,FANFARE7,"(0, 0)",
+98,sound,FANFARE8,"(0, 0)",
+99,sound,FANFARE9,"(0, 0)",
+103,sound,LOH_N01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LOH_N01.AIF
+104,sound,LOH_S01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LOH_S01.AIF
+143,sound,LO_N01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N01.AIF
+144,sound,LO_N02,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N02.AIF
+145,sound,LO_N03,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N03.AIF
+146,sound,LO_N04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N04.AIF
+147,sound,LO_N05,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N05.AIF
+148,sound,LO_N06,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N06.AIF
+149,sound,LO_N07,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N07.AIF
+150,sound,LO_N08,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N08.AIF
+151,sound,LO_N09,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N09.AIF
+152,sound,LO_N10,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N10.AIF
+153,sound,LO_N11,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N11.AIF
+154,sound,LO_N12,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N12.AIF
+155,sound,LO_N13,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N13.AIF
+156,sound,LO_N14,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N14.AIF
+157,sound,LO_N15,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N15.AIF
+158,sound,LO_N16,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N16.AIF
+159,sound,LO_N17,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N17.AIF
+160,sound,LO_N18,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N18.AIF
+161,sound,LO_N19,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_N19.AIF
+162,sound,LO_S01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S01.AIF
+163,sound,LO_S02,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S02.AIF
+164,sound,LO_S03,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S03.AIF
+165,sound,LO_S04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S04.AIF
+166,sound,LO_S05,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S05.AIF
+167,sound,LO_S06,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S06.AIF
+168,sound,LO_S07,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S07.AIF
+169,sound,LO_S08,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S08.AIF
+170,sound,LO_S09,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S09.AIF
+171,sound,LO_S10,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S10.AIF
+172,sound,LO_S11,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S11.AIF
+173,sound,LO_S12,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S12.AIF
+174,sound,LO_S13,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S13.AIF
+175,sound,LO_S14,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S14.AIF
+176,sound,LO_S15,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S15.AIF
+177,sound,LO_S16,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S16.AIF
+178,sound,LO_S17,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S17.AIF
+179,sound,LO_S18,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S18.AIF
+180,sound,LO_S19,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\LO_\LO_S19.AIF

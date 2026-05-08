@@ -1,0 +1,155 @@
+Number,Type,Name,Registration Point,Filename
+1,script,Init,"(0, 0)",
+2,script,Loop,"(0, 0)",
+3,script,TheEnd,"(0, 0)",
+4,script,Abort,"(0, 0)",
+5,sound,BIRDS.AIF,"(0, 0)",
+6,transition,,"(0, 0)",
+7,script,,"(0, 0)",
+9,bitmap,,"(320, 240)",
+11,script,Play 01,"(0, 0)",
+12,bitmap,01,"(320, 240)",
+13,bitmap,,"(320, 240)",
+14,bitmap,,"(320, 240)",
+21,script,Play 02,"(0, 0)",
+22,bitmap,02,"(320, 240)",
+23,filmLoop,KanariLoop,"(40, 60)",
+24,bitmap,,"(28, 60)",
+25,bitmap,,"(40, 58)",
+26,filmLoop,PapegøyeLoop,"(38, 47)",
+27,bitmap,,"(38, 47)",
+28,filmLoop,FinkeLoop,"(25, 18)",
+29,bitmap,,"(21, 13)",
+30,bitmap,,"(25, 18)",
+31,filmLoop,ToppLoop,"(21, 14)",
+32,bitmap,,"(17, 9)",
+33,bitmap,,"(20, 14)",
+34,filmLoop,Blink02,"(12, 11)",
+35,bitmap,,"(12, 11)",
+37,bitmap,,"(21, 3)",
+38,bitmap,,"(21, 6)",
+39,bitmap,,"(18, 7)",
+40,bitmap,,"(20, 6)",
+41,filmLoop,Kvist1Loop,"(39, 50)",
+42,bitmap,,"(29, 46)",
+43,bitmap,,"(39, 49)",
+44,filmLoop,Kvist2Loop,"(45, 54)",
+45,bitmap,,"(36, 43)",
+46,bitmap,,"(42, 54)",
+47,filmLoop,GreinLoop,"(88, 55)",
+48,bitmap,,"(86, 55)",
+49,bitmap,,"(81, 47)",
+51,script,Play 03,"(0, 0)",
+52,script,Missing danish sound file,"(0, 0)",
+53,bitmap,03,"(204, 168)",
+54,bitmap,,"(24, 32)",
+55,bitmap,,"(25, 32)",
+56,filmLoop,Blink03,"(8, 16)",
+57,bitmap,,"(8, 16)",
+61,script,Play 04,"(0, 0)",
+62,bitmap,04,"(204, 133)",
+63,bitmap,,"(7, 16)",
+64,bitmap,,"(7, 16)",
+71,script,Play 05,"(0, 0)",
+72,bitmap,05,"(203, 139)",
+73,bitmap,,"(7, 10)",
+74,filmLoop,Blink05,"(17, 14)",
+75,bitmap,,"(17, 14)",
+81,script,Play 06,"(0, 0)",
+82,bitmap,06,"(232, 209)",
+83,filmLoop,Blink06,"(16, 15)",
+84,bitmap,,"(16, 15)",
+91,script,Play 07,"(0, 0)",
+92,script,Play 08,"(0, 0)",
+93,script,Play 09,"(0, 0)",
+94,bitmap,07,"(320, 240)",
+95,bitmap,,"(25, 25)",
+96,bitmap,,"(24, 28)",
+97,filmLoop,Blink07,"(20, 26)",
+98,bitmap,,"(20, 26)",
+101,script,Play 10,"(0, 0)",
+102,bitmap,10,"(232, 209)",
+103,bitmap,,"(25, 24)",
+104,bitmap,,"(27, 22)",
+105,filmLoop,Blink10,"(16, 15)",
+106,bitmap,,"(16, 15)",
+111,script,Play 11,"(0, 0)",
+112,script,Play 12,"(0, 0)",
+118,bitmap,,"(0, 0)",
+121,script,Play 13,"(0, 0)",
+122,script,Play 14,"(0, 0)",
+123,script,Play 15,"(0, 0)",
+124,bitmap,13,"(320, 240)",
+125,bitmap,,"(11, 14)",
+126,bitmap,,"(9, 8)",
+131,script,Play 16,"(0, 0)",
+132,bitmap,16,"(124, 190)",
+133,bitmap,16D,"(10, 18)",
+134,bitmap,,"(23, 44)",
+141,script,Play 17,"(0, 0)",
+142,bitmap,17,"(124, 183)",
+143,bitmap,17D,"(11, 17)",
+144,bitmap,,"(47, 20)",
+151,script,Play 18,"(0, 0)",
+152,bitmap,18,"(126, 178)",
+153,bitmap,18D,"(10, 18)",
+154,bitmap,,"(46, 56)",
+161,script,Play 19,"(0, 0)",
+162,bitmap,,"(148, 204)",
+163,bitmap,19D,"(10, 20)",
+164,bitmap,,"(41, 54)",
+171,script,Play 20,"(0, 0)",
+172,bitmap,,"(169, 191)",
+173,bitmap,20D,"(11, 21)",
+174,bitmap,,"(87, 53)",
+175,bitmap,,"(152, 196)",
+181,script,Play 21,"(0, 0)",
+182,bitmap,21,"(320, 240)",
+184,bitmap,,"(49, 17)",
+185,bitmap,,"(49, 16)",
+186,bitmap,,"(13, 10)",
+187,bitmap,,"(11, 11)",
+188,bitmap,,"(8, 17)",
+189,bitmap,,"(8, 18)",
+243,sound,BO_N01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N01.AIF
+244,sound,BO_N02,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N02.AIF
+245,sound,BO_N03,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N03.AIF
+246,sound,BO_N04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N04.AIF
+247,sound,BO_N05,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N05.AIF
+248,sound,BO_N06,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N06.AIF
+249,sound,BO_N07,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N07.AIF
+250,sound,BO_N08,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N08.AIF
+251,sound,BO_N09,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N09.AIF
+252,sound,BO_N10,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N10.AIF
+253,sound,BO_N11,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N11.AIF
+254,sound,BO_N12,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N12.AIF
+255,sound,BO_N13,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N13.AIF
+256,sound,BO_N14,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N14.AIF
+257,sound,BO_N15,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N15.AIF
+258,sound,BO_N16,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N16.AIF
+259,sound,BO_N17,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N17.AIF
+260,sound,BO_N18,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N18.AIF
+261,sound,BO_N19,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N19.AIF
+262,sound,BO_N20,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N20.AIF
+263,sound,BO_N21,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_N21.AIF
+264,sound,BO_S01,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S01.AIF
+265,sound,BO_S02,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S02.AIF
+266,sound,BO_S03,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S03.AIF
+267,sound,BO_S04,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S04.AIF
+268,sound,BO_S05,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S05.AIF
+269,sound,BO_S06,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S06.AIF
+270,sound,BO_S07,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S07.AIF
+271,sound,BO_S08,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S08.AIF
+272,sound,BO_S09,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S09.AIF
+273,sound,BO_S10,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S10.AIF
+274,sound,BO_S11,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S11.AIF
+275,sound,BO_S12,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S12.AIF
+276,sound,BO_S13,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S13.AIF
+277,sound,BO_S14,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S14.AIF
+278,sound,BO_S15,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S15.AIF
+279,sound,BO_S16,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S16.AIF
+280,sound,BO_S17,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S17.AIF
+281,sound,BO_S18,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S18.AIF
+282,sound,BO_S19,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S19.AIF
+283,sound,BO_S20,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S20.AIF
+284,sound,BO_S21,"(0, 0)",E:\Projects\Josefine paa ferie decompiled\CD-Files\Installer Data\MOVIES\BO_\BO_S21.AIF

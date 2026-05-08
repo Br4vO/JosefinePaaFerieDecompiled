@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://da3q1p2rogxr0"
+
+[deps]
+
+files=["res://assets/PUZZLE/Members.Type.translation", "res://assets/PUZZLE/Members.Name.translation", "res://assets/PUZZLE/Members.Registration Point.translation", "res://assets/PUZZLE/Members.Filename.translation"]
+
+source_file="res://assets/PUZZLE/Members.csv"
+dest_files=["res://assets/PUZZLE/Members.Type.translation", "res://assets/PUZZLE/Members.Name.translation", "res://assets/PUZZLE/Members.Registration Point.translation", "res://assets/PUZZLE/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

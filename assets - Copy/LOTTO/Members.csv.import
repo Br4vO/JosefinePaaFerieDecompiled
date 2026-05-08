@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://u2s1tuj3swln"
+
+[deps]
+
+files=["res://assets/LOTTO/Members.Type.translation", "res://assets/LOTTO/Members.Name.translation", "res://assets/LOTTO/Members.Registration Point.translation", "res://assets/LOTTO/Members.Filename.translation"]
+
+source_file="res://assets/LOTTO/Members.csv"
+dest_files=["res://assets/LOTTO/Members.Type.translation", "res://assets/LOTTO/Members.Name.translation", "res://assets/LOTTO/Members.Registration Point.translation", "res://assets/LOTTO/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

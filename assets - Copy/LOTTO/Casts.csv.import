@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c7mg8bt1idk3s"
+
+[deps]
+
+files=["res://assets/LOTTO/Casts.Name.translation", "res://assets/LOTTO/Casts.Filename.translation"]
+
+source_file="res://assets/LOTTO/Casts.csv"
+dest_files=["res://assets/LOTTO/Casts.Name.translation", "res://assets/LOTTO/Casts.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

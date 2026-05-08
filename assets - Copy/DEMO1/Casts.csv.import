@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b7v3vvhart0w3"
+
+[deps]
+
+files=["res://assets/DEMO1/Casts.Name.translation", "res://assets/DEMO1/Casts.Filename.translation"]
+
+source_file="res://assets/DEMO1/Casts.csv"
+dest_files=["res://assets/DEMO1/Casts.Name.translation", "res://assets/DEMO1/Casts.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

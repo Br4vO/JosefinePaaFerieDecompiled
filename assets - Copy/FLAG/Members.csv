@@ -1,0 +1,12 @@
+Number,Type,Name,Registration Point,Filename
+1,bitmap,,"(320, 240)",
+3,palette,Flaggpalett,"(0, 0)",
+4,script,Set cursor,"(0, 0)",
+5,script,Go loop,"(0, 0)",
+6,script,Go Intro,"(0, 0)",
+11,shape,,"(0, 0)",
+12,script,Norwegian,"(0, 0)",
+13,script,Swedish,"(0, 0)",
+14,script,Danish,"(0, 0)",
+15,script,Finish,"(0, 0)",
+16,script,English,"(0, 0)",

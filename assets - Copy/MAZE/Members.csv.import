@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://6bqkcxntjp4s"
+
+[deps]
+
+files=["res://assets/MAZE/Members.Type.translation", "res://assets/MAZE/Members.Name.translation", "res://assets/MAZE/Members.Registration Point.translation", "res://assets/MAZE/Members.Filename.translation"]
+
+source_file="res://assets/MAZE/Members.csv"
+dest_files=["res://assets/MAZE/Members.Type.translation", "res://assets/MAZE/Members.Name.translation", "res://assets/MAZE/Members.Registration Point.translation", "res://assets/MAZE/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

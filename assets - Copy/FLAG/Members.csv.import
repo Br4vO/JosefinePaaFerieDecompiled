@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://gepl6dbwee7w"
+
+[deps]
+
+files=["res://assets/FLAG/Members.Type.translation", "res://assets/FLAG/Members.Name.translation", "res://assets/FLAG/Members.Registration Point.translation", "res://assets/FLAG/Members.en.translation"]
+
+source_file="res://assets/FLAG/Members.csv"
+dest_files=["res://assets/FLAG/Members.Type.translation", "res://assets/FLAG/Members.Name.translation", "res://assets/FLAG/Members.Registration Point.translation", "res://assets/FLAG/Members.en.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

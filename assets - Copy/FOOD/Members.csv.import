@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://do4j12nedt362"
+
+[deps]
+
+files=["res://assets/FOOD/Members.Type.translation", "res://assets/FOOD/Members.Name.translation", "res://assets/FOOD/Members.Registration Point.translation", "res://assets/FOOD/Members.Filename.translation"]
+
+source_file="res://assets/FOOD/Members.csv"
+dest_files=["res://assets/FOOD/Members.Type.translation", "res://assets/FOOD/Members.Name.translation", "res://assets/FOOD/Members.Registration Point.translation", "res://assets/FOOD/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

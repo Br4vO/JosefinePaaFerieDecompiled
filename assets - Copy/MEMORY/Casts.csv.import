@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b0xs6o3vip677"
+
+[deps]
+
+files=["res://assets/MEMORY/Casts.Name.translation", "res://assets/MEMORY/Casts.Filename.translation"]
+
+source_file="res://assets/MEMORY/Casts.csv"
+dest_files=["res://assets/MEMORY/Casts.Name.translation", "res://assets/MEMORY/Casts.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

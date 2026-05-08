@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dmb4kft30tlv6"
+
+[deps]
+
+files=["res://assets/SONGS/Members.Type.translation", "res://assets/SONGS/Members.Name.translation", "res://assets/SONGS/Members.Registration Point.translation", "res://assets/SONGS/Members.Filename.translation"]
+
+source_file="res://assets/SONGS/Members.csv"
+dest_files=["res://assets/SONGS/Members.Type.translation", "res://assets/SONGS/Members.Name.translation", "res://assets/SONGS/Members.Registration Point.translation", "res://assets/SONGS/Members.Filename.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true
