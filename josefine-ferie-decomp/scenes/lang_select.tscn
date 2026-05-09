@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://c27cr5msj0s5o"]
+
+[ext_resource type="Script" uid="uid://cl52iausrsivt" path="res://scripts/FlagSelect.gd" id="2_fuypr"]
+[ext_resource type="Texture2D" uid="uid://b10ka0pbejec6" path="res://assets/run/6.png" id="2_u5snt"]
+[ext_resource type="Texture2D" uid="uid://d36a0fyew7c8d" path="res://assets/run/7.png" id="3_uawnr"]
+[ext_resource type="Texture2D" uid="uid://cngcnjjch0vsu" path="res://assets/run/11.png" id="4_ra0cy"]
+[ext_resource type="Texture2D" uid="uid://cus0mcpewcsw" path="res://assets/run/8.png" id="5_aarqj"]
+[ext_resource type="Texture2D" uid="uid://cgf7a1uhi25jr" path="res://assets/run/12.png" id="6_8hkil"]
+
+[node name="LangSelect" type="Node2D" unique_id=1666228861]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1096560723]
+texture = ExtResource("2_u5snt")
+centered = false
+script = ExtResource("2_fuypr")
+
+[node name="NorwayFlag" type="TextureButton" parent="Background" unique_id=797142533]
+offset_left = 76.04
+offset_top = 137.21
+offset_right = 207.04001
+offset_bottom = 384.21002
+texture_normal = ExtResource("3_uawnr")
+texture_hover = ExtResource("4_ra0cy")
+
+[node name="SwedenFlag" type="TextureButton" parent="Background" unique_id=548885173]
+offset_left = 435.0
+offset_top = 140.0
+offset_right = 568.0021
+offset_bottom = 392.0005
+texture_normal = ExtResource("5_aarqj")
+texture_hover = ExtResource("6_8hkil")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1806388378]
+position = Vector2(320, 240)
+limit_left = 0
+limit_top = 0
+limit_right = 1000
+limit_bottom = 480
+position_smoothing_enabled = true
+
+[connection signal="pressed" from="Background/NorwayFlag" to="Background" method="_on_norway_flag_pressed"]
+[connection signal="pressed" from="Background/SwedenFlag" to="Background" method="_on_sweden_flag_pressed"]

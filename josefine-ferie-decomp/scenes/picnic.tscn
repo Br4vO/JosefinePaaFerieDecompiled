@@ -1,13 +1,12 @@
-[gd_scene format=3 uid="uid://bs2tpsfrxkkah"]
+[gd_scene format=3 uid="uid://dx26ndlt2qcls"]
 
-[ext_resource type="Texture2D" uid="uid://b34m0yxsvep64" path="res://assets/PICNIC/41_Dag.ny.png" id="1_uhqqe"]
-[ext_resource type="Script" uid="uid://bkatjvw14hiee" path="res://scripts/MainScript.gd" id="2_ia1lp"]
+[ext_resource type="Script" uid="uid://bkatjvw14hiee" path="res://scripts/PanningCamera.gd" id="1_so7yp"]
+[ext_resource type="Texture2D" uid="uid://b34m0yxsvep64" path="res://assets/PICNIC/41_Dag.ny.png" id="2_ictox"]
 
 [node name="Picnic" type="Node2D" unique_id=1626720372]
-script = ExtResource("2_ia1lp")
 
 [node name="Background" type="Sprite2D" parent="." unique_id=1429836938]
-texture = ExtResource("1_uhqqe")
+texture = ExtResource("2_ictox")
 centered = false
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=203414202]
@@ -17,3 +16,4 @@ limit_top = 0
 limit_right = 1000
 limit_bottom = 480
 position_smoothing_enabled = true
+script = ExtResource("1_so7yp")
