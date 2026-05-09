@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cngcnjjch0vsu" path="res://assets/run/11.png" id="4_ra0cy"]
 [ext_resource type="Texture2D" uid="uid://cus0mcpewcsw" path="res://assets/run/8.png" id="5_aarqj"]
 [ext_resource type="Texture2D" uid="uid://cgf7a1uhi25jr" path="res://assets/run/12.png" id="6_8hkil"]
+[ext_resource type="AudioStream" uid="uid://t5q5f3dgsuka" path="res://assets/audio/flag_select.wav" id="7_8hkil"]
 
 [node name="LangSelect" type="Node2D" unique_id=1666228861]
 
@@ -29,6 +30,9 @@ offset_right = 568.0021
 offset_bottom = 392.0005
 texture_normal = ExtResource("5_aarqj")
 texture_hover = ExtResource("6_8hkil")
+
+[node name="SfxPlayer" type="AudioStreamPlayer2D" parent="Background" unique_id=1654107884]
+stream = ExtResource("7_8hkil")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1806388378]
 position = Vector2(320, 240)
