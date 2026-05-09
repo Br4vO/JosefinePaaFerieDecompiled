@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bs2tpsfrxkkah"]
 
 [ext_resource type="Texture2D" uid="uid://b34m0yxsvep64" path="res://assets/PICNIC/41_Dag.ny.png" id="1_uhqqe"]
-[ext_resource type="Script" uid="uid://bkatjvw14hiee" path="res://scripts/Camera-movement.gd" id="2_ia1lp"]
+[ext_resource type="Script" uid="uid://bkatjvw14hiee" path="res://scripts/MainScript.gd" id="2_ia1lp"]
 
 [node name="Picnic" type="Node2D" unique_id=1626720372]
 script = ExtResource("2_ia1lp")
