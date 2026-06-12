@@ -27,6 +27,10 @@ window/size/window_width_override=1280
 window/size/window_height_override=960
 window/stretch/mode="canvas_items"
 
+[internationalization]
+
+locale/fallback="N"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

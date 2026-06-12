@@ -2,6 +2,17 @@
 
 [ext_resource type="Script" uid="uid://bkatjvw14hiee" path="res://scripts/PanningCamera.gd" id="1_so7yp"]
 [ext_resource type="Texture2D" uid="uid://b34m0yxsvep64" path="res://assets/PICNIC/41_Dag.ny.png" id="2_ictox"]
+[ext_resource type="AudioStream" uid="uid://7a83xgmoqfl8" path="res://assets/audio/49_BIRDS.AIF.wav" id="2_rxvg5"]
+[ext_resource type="Script" uid="uid://dkd5yhhpm63m8" path="res://scripts/sceneTransitions.gd" id="3_rpplr"]
+[ext_resource type="Script" uid="uid://cv3dpmbf8ypso" path="res://scripts/VoiceManager.gd" id="3_rxvg5"]
+[ext_resource type="Texture2D" uid="uid://ml7onqh2f3cr" path="res://assets/PICNIC/J_sitting.png" id="4_8o0lo"]
+[ext_resource type="Texture2D" uid="uid://dvh05kjjqujwn" path="res://assets/PICNIC/J_mouth.png" id="5_7l5wv"]
+[ext_resource type="Texture2D" uid="uid://bfx38kg1ypcck" path="res://assets/PICNIC/18_Kontrollpanel.png" id="5_v01ff"]
+[ext_resource type="Script" uid="uid://doie3co2yylrd" path="res://scripts/MenyBar.gd" id="6_blgt4"]
+[ext_resource type="Texture2D" uid="uid://decc23pnb4nod" path="res://assets/PICNIC/19.png" id="6_r4kpa"]
+[ext_resource type="Script" uid="uid://b8kndb7n6vftj" path="res://scripts/mouth.gd" id="6_rpplr"]
+[ext_resource type="Texture2D" uid="uid://cns3wgwx7dwh3" path="res://assets/PICNIC/57.png" id="7_ytg43"]
+[ext_resource type="Texture2D" uid="uid://d0t0tgllqxtop" path="res://assets/Shared/20_LitenLogo.png" id="12_7l5wv"]
 
 [node name="Picnic" type="Node2D" unique_id=1626720372]
 
@@ -17,3 +28,120 @@ limit_right = 1000
 limit_bottom = 480
 position_smoothing_enabled = true
 script = ExtResource("1_so7yp")
+
+[node name="Interactables" type="Node2D" parent="." unique_id=668994694]
+script = ExtResource("3_rpplr")
+
+[node name="Laptop" type="Area2D" parent="Interactables" unique_id=322671695]
+
+[node name="LaptopCollision" type="CollisionPolygon2D" parent="Interactables/Laptop" unique_id=1007339578]
+polygon = PackedVector2Array(913, 370, 969, 382, 959, 425, 926, 440, 869, 423, 869, 416, 904, 406)
+
+[node name="FirePit" type="Area2D" parent="Interactables" unique_id=171575170]
+
+[node name="FirepitCollision" type="CollisionPolygon2D" parent="Interactables/FirePit" unique_id=825881452]
+polygon = PackedVector2Array(535, 411, 505, 428, 456, 438, 410, 428, 385, 413, 392, 390, 404, 379, 427, 370, 450, 358, 464, 359, 486, 366, 497, 365, 526, 385, 526, 396, 535, 403)
+
+[node name="Cave" type="Area2D" parent="Interactables" unique_id=1624442724]
+
+[node name="CaveCollision" type="CollisionPolygon2D" parent="Interactables/Cave" unique_id=489871654]
+polygon = PackedVector2Array(124, 294, 130, 284, 140, 278, 143, 278, 151, 269, 167, 266, 180, 270, 200, 271, 210, 276, 213, 275, 219, 269, 218, 262, 215, 249, 204, 235, 201, 227, 191, 216, 182, 209, 174, 209, 169, 211, 169, 214, 163, 217, 149, 220, 143, 224, 138, 229, 136, 237, 123, 245, 123, 251, 126, 259, 125, 264, 120, 274, 119, 283)
+
+[node name="Animal" type="Area2D" parent="Interactables" unique_id=442833278]
+
+[node name="AnimalCollision" type="CollisionPolygon2D" parent="Interactables/Animal" unique_id=2042170936]
+polygon = PackedVector2Array(884, 127, 910, 124, 913, 108, 919, 96, 926, 96, 939, 98, 939, 92, 939, 76, 928, 71, 916, 73, 895, 63, 880, 64, 876, 78, 866, 84, 869, 102, 869, 118, 870, 126)
+
+[node name="Clothes" type="Area2D" parent="Interactables" unique_id=1476207972]
+
+[node name="ClothesCollision" type="CollisionPolygon2D" parent="Interactables/Clothes" unique_id=1832735593]
+polygon = PackedVector2Array(643, 106, 697, 93, 717, 86, 741, 96, 757, 110, 748, 142, 708, 171, 643, 150)
+
+[node name="Door" type="Area2D" parent="Interactables" unique_id=1670211801]
+
+[node name="DoorCollision" type="CollisionPolygon2D" parent="Interactables/Door" unique_id=321060168]
+polygon = PackedVector2Array(719, 221, 797, 232, 785, 359, 709, 352)
+
+[node name="Teppe" type="Area2D" parent="Interactables" unique_id=790819307]
+
+[node name="TeppeCollision" type="CollisionPolygon2D" parent="Interactables/Teppe" unique_id=886210051]
+polygon = PackedVector2Array(98, 391, 96, 407, 120, 418, 157, 401, 156, 390, 135, 377)
+
+[node name="Characters" type="Node2D" parent="." unique_id=1711143888]
+
+[node name="Josefine" type="Sprite2D" parent="Characters" unique_id=383770260]
+position = Vector2(313, 246)
+texture = ExtResource("4_8o0lo")
+
+[node name="Mouth" type="Sprite2D" parent="Characters/Josefine" unique_id=1315617199 node_paths=PackedStringArray("audio_player")]
+position = Vector2(-1.495, -7.505)
+texture = ExtResource("5_7l5wv")
+script = ExtResource("6_rpplr")
+audio_player = NodePath("../../../Systems/VoiceManager/VoicePlayer")
+
+[node name="Area2D" type="Area2D" parent="Characters/Josefine" unique_id=1197527]
+
+[node name="JosefineCollision" type="CollisionPolygon2D" parent="Characters/Josefine/Area2D" unique_id=1230720102]
+polygon = PackedVector2Array(-38.8, -78, -46, -78, -46, -67.5, -41, -54.6, -23.8, -37, -28, -19.2, -28, -9.699997, -14.5, -3.5, -15.5, -1, -26.7, 4, -32.4, 12, -33, 23, -28, 31, -32.5, 41, -31, 55, -22, 64, -6, 66, 8, 77, 13, 77, 17.5, 76, 23, 61, 25, 61, 33, 68, 41, 70, 45.800003, 68, 45, 42, 33, 40, 23.5, 32.6, 27.400002, 21, 25, 5.699997, 14, -1.5, 15, -5, 20, -12, 23, -19.400002, 20, -26.2, 26, -22.900002, 39, -24, 42, -30, 24, -52.8, 19.300003, -56, 11.299999, -56, 7.0999985, -52.5, 7, -56, -2, -57, -9.400002, -51.7, -17, -64.5)
+
+[node name="Systems" type="Node2D" parent="." unique_id=1228131832]
+
+[node name="VoiceManager" type="Node2D" parent="Systems" unique_id=1731573507]
+script = ExtResource("3_rxvg5")
+
+[node name="VoicePlayer" type="AudioStreamPlayer2D" parent="Systems/VoiceManager" unique_id=1968187532]
+
+[node name="MaseTimer" type="Timer" parent="Systems/VoiceManager" unique_id=1041028930]
+wait_time = 30.0
+autostart = true
+
+[node name="AmbientPlayer" type="AudioStreamPlayer2D" parent="Systems" unique_id=646304724]
+stream = ExtResource("2_rxvg5")
+autoplay = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=27313410]
+
+[node name="SlidePanel" type="TextureRect" parent="CanvasLayer" unique_id=1349897505]
+offset_top = 480.0
+offset_right = 642.0
+offset_bottom = 530.0
+texture = ExtResource("5_v01ff")
+script = ExtResource("6_blgt4")
+
+[node name="ExitButton" type="TextureButton" parent="CanvasLayer/SlidePanel" unique_id=1235104431]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 4.0
+offset_right = 50.0
+offset_bottom = 47.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("6_r4kpa")
+
+[node name="HelpButton" type="TextureButton" parent="CanvasLayer/SlidePanel" unique_id=60581170]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 4.0
+offset_right = 99.0
+offset_bottom = 47.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("7_ytg43")
+
+[node name="PinjataLogo" type="TextureRect" parent="CanvasLayer" unique_id=1940612607]
+modulate = Color(1, 1, 1, 0.5019608)
+offset_left = 580.0
+offset_top = 18.0
+offset_right = 630.0
+offset_bottom = 44.0
+texture = ExtResource("12_7l5wv")
+
+[connection signal="input_event" from="Interactables/Laptop" to="Interactables" method="_on_input_event"]
+[connection signal="input_event" from="Interactables/FirePit" to="Interactables" method="_on_input_event"]
+[connection signal="input_event" from="Interactables/Cave" to="Interactables" method="_on_input_event"]
+[connection signal="input_event" from="Interactables/Animal" to="Interactables" method="_on_input_event"]
+[connection signal="input_event" from="Interactables/Clothes" to="Interactables" method="_on_input_event"]
+[connection signal="input_event" from="Interactables/Door" to="Interactables" method="_on_input_event"]
+[connection signal="input_event" from="Interactables/Teppe" to="Interactables" method="_on_input_event"]
+[connection signal="input_event" from="Characters/Josefine/Area2D" to="Systems/VoiceManager" method="_on_area_2d_input_event"]
+[connection signal="timeout" from="Systems/VoiceManager/MaseTimer" to="Systems/VoiceManager" method="_on_timer_timeout"]
+[connection signal="button_down" from="CanvasLayer/SlidePanel/ExitButton" to="CanvasLayer/SlidePanel" method="_on_exit_button_button_down"]
+[connection signal="button_down" from="CanvasLayer/SlidePanel/HelpButton" to="Systems/VoiceManager" method="_on_help_button_button_down"]
