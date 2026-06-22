@@ -30,7 +30,7 @@ func _process(delta):
 				new_shape = Input.CURSOR_HSPLIT    # Right Wall
 
 	# Tell the system which shape to use
-	Input.set_default_cursor_shape(new_shape)
+	GlobalCursor.set_cursor(new_shape, GlobalCursor.Priority.CAMERA)
 	
 	# Apply movement
 	target_x = clamp(target_x, limit_left_move, limit_right_move)

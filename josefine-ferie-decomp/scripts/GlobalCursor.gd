@@ -9,7 +9,25 @@ extends Node
 @onready var cur_wall_l = load("res://assets/Shared/25_LeftEnd.png")
 @onready var cur_wall_r = load("res://assets/Shared/27_RightEnd.png")
 
-var was_mouse_pressed = false
+enum Priority { CAMERA, INTERACT }
+var priority_stack = {}
+
+func set_cursor(shape_type, priority):
+	priority_stack[priority] = shape_type
+	_apply_cursor()
+
+func clear_cursor(priority):
+	priority_stack.erase(priority)
+	_apply_cursor()
+
+func _apply_cursor():
+	# Decide who wins: INTERACT priority always overrides CAMERA priority
+	if priority_stack.has(Priority.INTERACT):
+		Input.set_default_cursor_shape(priority_stack[Priority.INTERACT])
+	elif priority_stack.has(Priority.CAMERA):
+		Input.set_default_cursor_shape(priority_stack[Priority.CAMERA])
+	else:
+		Input.set_default_cursor_shape(Input.CURSOR_ARROW)
 
 func _ready():
 	# Register everything once
