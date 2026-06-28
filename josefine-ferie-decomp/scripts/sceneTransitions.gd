@@ -26,3 +26,5 @@ func _on_input_event(_viewport, event, _shape_idx):
 					print("Teppe clicked!")
 				"Cave":
 					print("Cave clicked!")
+				"Horse":
+					print("Horse clicked!")

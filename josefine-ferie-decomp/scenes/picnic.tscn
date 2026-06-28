@@ -11,68 +11,47 @@
 [ext_resource type="Script" uid="uid://doie3co2yylrd" path="res://scripts/MenyBar.gd" id="6_blgt4"]
 [ext_resource type="Texture2D" uid="uid://decc23pnb4nod" path="res://assets/PICNIC/19.png" id="6_r4kpa"]
 [ext_resource type="Script" uid="uid://b8kndb7n6vftj" path="res://scripts/mouth.gd" id="6_rpplr"]
-[ext_resource type="Texture2D" uid="uid://u48foni6kjpj" path="res://assets/PICNIC/62_01.png" id="7_v1r45"]
+[ext_resource type="Texture2D" uid="uid://dht14dfvvh5gl" path="res://assets/PICNIC/HorseSpreadSheet.png" id="7_1jbqx"]
 [ext_resource type="Texture2D" uid="uid://cns3wgwx7dwh3" path="res://assets/PICNIC/57.png" id="7_ytg43"]
-[ext_resource type="Texture2D" uid="uid://bpog04qr6wkae" path="res://assets/PICNIC/63.png" id="8_efnlh"]
-[ext_resource type="Texture2D" uid="uid://wb2r5pka8jii" path="res://assets/PICNIC/64_02.png" id="9_notrk"]
-[ext_resource type="Texture2D" uid="uid://8v07pm34jjws" path="res://assets/PICNIC/65_03.png" id="10_jbp6e"]
-[ext_resource type="Texture2D" uid="uid://c7j6oesbq1v76" path="res://assets/PICNIC/66_04.png" id="11_or1u3"]
 [ext_resource type="Texture2D" uid="uid://d0t0tgllqxtop" path="res://assets/Shared/20_LitenLogo.png" id="12_7l5wv"]
-[ext_resource type="Texture2D" uid="uid://b3re8ras8n2d" path="res://assets/PICNIC/67_05.png" id="12_kqdq8"]
-[ext_resource type="Texture2D" uid="uid://ma0t4umyquaf" path="res://assets/PICNIC/68_06.png" id="13_dyevf"]
-[ext_resource type="Texture2D" uid="uid://vh5vxvc18vii" path="res://assets/PICNIC/69.png" id="14_41056"]
-[ext_resource type="Texture2D" uid="uid://den86844ibhgs" path="res://assets/PICNIC/70_09.png" id="15_gn5d7"]
-[ext_resource type="Texture2D" uid="uid://b2dydqwdt7k5u" path="res://assets/PICNIC/71_10.png" id="16_xlpkx"]
-[ext_resource type="Texture2D" uid="uid://biaqwvdnqjly7" path="res://assets/PICNIC/72_11.png" id="17_krvvs"]
-[ext_resource type="Texture2D" uid="uid://b0wbiuqmxid12" path="res://assets/PICNIC/73_12.png" id="18_427oy"]
-[ext_resource type="Texture2D" uid="uid://dq404iywj32jt" path="res://assets/PICNIC/74_13.png" id="19_8224v"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_xosso"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("7_v1r45")
-}, {
-"duration": 1.0,
-"texture": ExtResource("8_efnlh")
-}, {
-"duration": 1.0,
-"texture": ExtResource("9_notrk")
-}, {
-"duration": 1.0,
-"texture": ExtResource("10_jbp6e")
-}, {
-"duration": 1.0,
-"texture": ExtResource("11_or1u3")
-}, {
-"duration": 1.0,
-"texture": ExtResource("12_kqdq8")
-}, {
-"duration": 1.0,
-"texture": ExtResource("13_dyevf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("14_41056")
-}, {
-"duration": 1.0,
-"texture": ExtResource("15_gn5d7")
-}, {
-"duration": 1.0,
-"texture": ExtResource("16_xlpkx")
-}, {
-"duration": 1.0,
-"texture": ExtResource("17_krvvs")
-}, {
-"duration": 1.0,
-"texture": ExtResource("18_427oy")
-}, {
-"duration": 1.0,
-"texture": ExtResource("19_8224v")
-}],
-"loop": true,
-"name": &"default",
-"speed": 5.0
-}]
+[sub_resource type="Animation" id="Animation_dl0rt"]
+length = 11.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+
+[sub_resource type="Animation" id="Animation_lttjm"]
+resource_name = "graze_and_neigh"
+length = 11.066667
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6, 0.7, 0.9, 1.1, 2.316, 2.416, 2.617, 2.717, 4.817, 4.917, 5.017, 5.117, 5.317, 5.417, 5.517, 5.617, 6.1, 6.117, 6.317, 6.417, 6.617, 6.717, 6.917, 7.117, 7.217, 7.917, 8.017, 8.217, 8.317, 8.517, 8.717, 8.817, 9.017, 9.117, 9.217, 9.317, 9.417),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 2, 3, 2, 0, 1, 0, 1, 6, 0, 2, 3, 2, 0, 6, 7, 9, 11, 10, 1]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4ayc8"]
+_data = {
+&"RESET": SubResource("Animation_dl0rt"),
+&"graze_and_neigh": SubResource("Animation_lttjm")
+}
 
 [node name="Picnic" type="Node2D" unique_id=1626720372]
 
@@ -151,11 +130,21 @@ script = ExtResource("3_rpplr")
 [node name="JosefineCollision" type="CollisionPolygon2D" parent="Characters/Josefine/Area2D" unique_id=1230720102]
 polygon = PackedVector2Array(-38.8, -78, -46, -78, -46, -67.5, -41, -54.6, -23.8, -37, -28, -19.2, -28, -9.699997, -14.5, -3.5, -15.5, -1, -26.7, 4, -32.4, 12, -33, 23, -28, 31, -32.5, 41, -31, 55, -22, 64, -6, 66, 8, 77, 13, 77, 17.5, 76, 23, 61, 25, 61, 33, 68, 41, 70, 45.800003, 68, 45, 42, 33, 40, 23.5, 32.6, 27.400002, 21, 25, 5.699997, 14, -1.5, 15, -5, 20, -12, 23, -19.400002, 20, -26.2, 26, -22.900002, 39, -24, 42, -30, 24, -52.8, 19.300003, -56, 11.299999, -56, 7.0999985, -52.5, 7, -56, -2, -57, -9.400002, -51.7, -17, -64.5)
 
-[node name="Horse" type="AnimatedSprite2D" parent="Characters" unique_id=1002315901]
-position = Vector2(443, 204)
-sprite_frames = SubResource("SpriteFrames_xosso")
-frame = 4
-frame_progress = 0.93042654
+[node name="Horse" type="Sprite2D" parent="Characters" unique_id=1696981256]
+position = Vector2(441, 195)
+texture = ExtResource("7_1jbqx")
+hframes = 12
+frame = 1
+
+[node name="HorseAnimationPlayer" type="AnimationPlayer" parent="Characters/Horse" unique_id=1687898125]
+libraries/ = SubResource("AnimationLibrary_4ayc8")
+autoplay = &"graze_and_neigh"
+
+[node name="Horse" type="Area2D" parent="Characters/Horse" unique_id=808494388]
+script = ExtResource("3_rpplr")
+
+[node name="HorseCollision" type="CollisionPolygon2D" parent="Characters/Horse/Horse" unique_id=1249732341]
+polygon = PackedVector2Array(-6, -25, 16, -26, 43, -21, 50, -16, 57, 22, 36, 46, 22, 43, 30, 23, 28, 9, 17, -1, -14, 12, -10, 37, -11, 45, -27, 46, -24, 6, -47, 25, -53, 21, -53, -1, -28, -24)
 
 [node name="Systems" type="Node2D" parent="." unique_id=1228131832]
 
@@ -210,37 +199,33 @@ offset_bottom = 44.0
 mouse_filter = 2
 texture = ExtResource("12_7l5wv")
 
-[connection signal="input_event" from="Interactables/Laptop" to="Interactables" method="_on_input_event"]
 [connection signal="input_event" from="Interactables/Laptop" to="Interactables/Laptop" method="_on_input_event"]
 [connection signal="mouse_entered" from="Interactables/Laptop" to="Interactables/Laptop" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Interactables/Laptop" to="Interactables/Laptop" method="_on_mouse_exited"]
-[connection signal="input_event" from="Interactables/FirePit" to="Interactables" method="_on_input_event"]
 [connection signal="input_event" from="Interactables/FirePit" to="Interactables/FirePit" method="_on_input_event"]
 [connection signal="mouse_entered" from="Interactables/FirePit" to="Interactables/FirePit" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Interactables/FirePit" to="Interactables/FirePit" method="_on_mouse_exited"]
-[connection signal="input_event" from="Interactables/Cave" to="Interactables" method="_on_input_event"]
 [connection signal="input_event" from="Interactables/Cave" to="Interactables/Cave" method="_on_input_event"]
 [connection signal="mouse_entered" from="Interactables/Cave" to="Interactables/Cave" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Interactables/Cave" to="Interactables/Cave" method="_on_mouse_exited"]
-[connection signal="input_event" from="Interactables/Animal" to="Interactables" method="_on_input_event"]
 [connection signal="input_event" from="Interactables/Animal" to="Interactables/Animal" method="_on_input_event"]
 [connection signal="mouse_entered" from="Interactables/Animal" to="Interactables/Animal" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Interactables/Animal" to="Interactables/Animal" method="_on_mouse_exited"]
-[connection signal="input_event" from="Interactables/Clothes" to="Interactables" method="_on_input_event"]
 [connection signal="input_event" from="Interactables/Clothes" to="Interactables/Clothes" method="_on_input_event"]
 [connection signal="mouse_entered" from="Interactables/Clothes" to="Interactables/Clothes" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Interactables/Clothes" to="Interactables/Clothes" method="_on_mouse_exited"]
-[connection signal="input_event" from="Interactables/Door" to="Interactables" method="_on_input_event"]
 [connection signal="input_event" from="Interactables/Door" to="Interactables/Door" method="_on_input_event"]
 [connection signal="mouse_entered" from="Interactables/Door" to="Interactables/Door" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Interactables/Door" to="Interactables/Door" method="_on_mouse_exited"]
-[connection signal="input_event" from="Interactables/Teppe" to="Interactables" method="_on_input_event"]
 [connection signal="input_event" from="Interactables/Teppe" to="Interactables/Teppe" method="_on_input_event"]
 [connection signal="mouse_entered" from="Interactables/Teppe" to="Interactables/Teppe" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Interactables/Teppe" to="Interactables/Teppe" method="_on_mouse_exited"]
 [connection signal="input_event" from="Characters/Josefine/Area2D" to="Systems/VoiceManager" method="_on_area_2d_input_event"]
 [connection signal="mouse_entered" from="Characters/Josefine/Area2D" to="Characters/Josefine/Area2D" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Characters/Josefine/Area2D" to="Characters/Josefine/Area2D" method="_on_mouse_exited"]
+[connection signal="input_event" from="Characters/Horse/Horse" to="Characters/Horse/Horse" method="_on_input_event"]
+[connection signal="mouse_entered" from="Characters/Horse/Horse" to="Characters/Horse/Horse" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Characters/Horse/Horse" to="Characters/Horse/Horse" method="_on_mouse_exited"]
 [connection signal="timeout" from="Systems/VoiceManager/MaseTimer" to="Systems/VoiceManager" method="_on_timer_timeout"]
 [connection signal="button_down" from="CanvasLayer/SlidePanel/ExitButton" to="CanvasLayer/SlidePanel" method="_on_exit_button_button_down"]
 [connection signal="button_down" from="CanvasLayer/SlidePanel/HelpButton" to="Systems/VoiceManager" method="_on_help_button_button_down"]
